@@ -32,7 +32,7 @@ python scripts/qa_check.py output.pptx
 ```
 ppt_skill/
 ├── README.md                    # English documentation
-├── README_CN.md                 # Chinese documentation
+├── README.zh-CN.md              # Chinese documentation
 ├── scripts/                     # Core scripts
 │   ├── build_pptx.py            # Core builder
 │   ├── render_slides.py         # PPTX to PNG preview

@@ -52,7 +52,7 @@ python scripts/export.py output/my_deck.pptx --format pdf --output my_deck.pdf
 ```
 ppt_skill/
 ├── README.md                   # 英文完整文档
-├── README_CN.md                # 本文档（中文版）
+├── README.zh-CN.md             # 本文档（中文版）
 ├── LICENSE                     # MIT 许可证
 ├── requirements.txt            # Python 依赖
 ├── scripts/                    # 核心脚本

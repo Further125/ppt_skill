@@ -6,7 +6,7 @@
 
 📄 文档语言 / Documentation Languages:
 - [README.md](README.md) — 英文完整文档 / English documentation
-- [README_CN.md](README_CN.md) — 中文完整文档 / Chinese documentation
+- [README.zh-CN.md](README.zh-CN.md) — 中文完整文档 / Chinese documentation
 - [docs/QUICK_START.md](docs/QUICK_START.md) — 英文快速开始
 - [docs/USAGE.md](docs/USAGE.md) — 英文使用指南
 - [docs/layouts.md](docs/layouts.md) — 英文布局速查

@@ -4,7 +4,7 @@ A powerful, template-based PowerPoint generation system. Write a JSON spec, get 
 
 > 🤖 Built with vibe coding — AI-assisted, human-reviewed.
 
-[Chinese Docs](README_CN.md)
+[简体中文 README](README.zh-CN.md)
 
 ## Features
 
@@ -39,7 +39,7 @@ A powerful, template-based PowerPoint generation system. Write a JSON spec, get 
 - [docs/EXAMPLES.md](docs/EXAMPLES.md) — Example gallery
 - [docs/FAQ.md](docs/FAQ.md) — Frequently asked questions
 - [docs/TESTING.md](docs/TESTING.md) — Testing guide
-- [README_CN.md](README_CN.md) — Chinese version
+- [README.zh-CN.md](README.zh-CN.md) — Chinese version
 
 ## Quick Start
 
