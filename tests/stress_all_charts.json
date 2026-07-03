@@ -1,0 +1,247 @@
+{
+  "title": "stress_all_charts",
+  "slides": [
+    {
+      "layout": "cover",
+      "title": "图表类型全览 — 压力测试"
+    },
+    {
+      "layout": "chart",
+      "title": "柱状图（Column）",
+      "chart_data": {
+        "type": "column",
+        "categories": [
+          "Q1",
+          "Q2",
+          "Q3",
+          "Q4"
+        ],
+        "values": [
+          120,
+          190,
+          150,
+          220
+        ],
+        "series_name": "营收"
+      }
+    },
+    {
+      "layout": "chart",
+      "title": "条形图（Bar）",
+      "chart_data": {
+        "type": "bar",
+        "categories": [
+          "产品A",
+          "产品B",
+          "产品C",
+          "产品D",
+          "产品E"
+        ],
+        "values": [
+          85,
+          72,
+          93,
+          68,
+          77
+        ],
+        "series_name": "用户评分"
+      }
+    },
+    {
+      "layout": "chart",
+      "title": "折线图（Line）",
+      "chart_data": {
+        "type": "line",
+        "categories": [
+          "1月",
+          "2月",
+          "3月",
+          "4月",
+          "5月",
+          "6月"
+        ],
+        "values": [
+          45,
+          52,
+          48,
+          61,
+          58,
+          67
+        ],
+        "series_name": "活跃用户数（万）"
+      }
+    },
+    {
+      "layout": "chart",
+      "title": "饼图（Pie）",
+      "chart_data": {
+        "type": "pie",
+        "categories": [
+          "iOS",
+          "Android",
+          "Web",
+          "Desktop"
+        ],
+        "values": [
+          35,
+          42,
+          15,
+          8
+        ],
+        "series_name": "平台分布"
+      }
+    },
+    {
+      "layout": "chart",
+      "title": "环形图（Doughnut）",
+      "chart_data": {
+        "type": "doughnut",
+        "categories": [
+          "北京",
+          "上海",
+          "深圳",
+          "杭州",
+          "成都",
+          "其他"
+        ],
+        "values": [
+          28,
+          22,
+          18,
+          12,
+          8,
+          12
+        ],
+        "series_name": "城市分布"
+      }
+    },
+    {
+      "layout": "chart",
+      "title": "面积图（Area）",
+      "chart_data": {
+        "type": "area",
+        "categories": [
+          "2019",
+          "2020",
+          "2021",
+          "2022",
+          "2023",
+          "2024",
+          "2025"
+        ],
+        "values": [
+          10,
+          25,
+          45,
+          80,
+          130,
+          200,
+          280
+        ],
+        "series_name": "累计用户数"
+      }
+    },
+    {
+      "layout": "chart",
+      "title": "雷达图（Radar）",
+      "chart_data": {
+        "type": "radar",
+        "categories": [
+          "性能",
+          "安全",
+          "易用",
+          "扩展",
+          "文档",
+          "社区"
+        ],
+        "values": [
+          90,
+          85,
+          75,
+          92,
+          70,
+          88
+        ],
+        "series_name": "产品能力评估"
+      }
+    },
+    {
+      "layout": "chart",
+      "title": "瀑布图（Waterfall）",
+      "chart_data": {
+        "type": "waterfall",
+        "categories": [
+          "基线",
+          "效率",
+          "成本",
+          "增长",
+          "净收益"
+        ],
+        "values": [
+          0,
+          120,
+          80,
+          150,
+          350
+        ],
+        "series_name": "利润拆解"
+      }
+    },
+    {
+      "layout": "chart",
+      "title": "漏斗图（Funnel）",
+      "chart_data": {
+        "type": "funnel",
+        "categories": [
+          "曝光",
+          "点击",
+          "访问",
+          "注册",
+          "付费",
+          "复购"
+        ],
+        "values": [
+          100000,
+          25000,
+          8000,
+          3000,
+          800,
+          240
+        ],
+        "series_name": "转化漏斗"
+      }
+    },
+    {
+      "layout": "chart",
+      "title": "甘特图（Gantt）",
+      "content": [
+        "EOF"
+      ],
+      "chart_data": {
+        "type": "gantt",
+        "categories": [
+          "需求",
+          "设计",
+          "开发",
+          "测试",
+          "上线",
+          "运营"
+        ],
+        "values": [
+          10,
+          20,
+          45,
+          20,
+          5,
+          30
+        ],
+        "series_name": "项目周期（天）"
+      }
+    },
+    {
+      "layout": "closing",
+      "title": "谢谢",
+      "subtitle": "Q & A"
+    }
+  ]
+}

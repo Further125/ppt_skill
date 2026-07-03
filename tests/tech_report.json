@@ -1,0 +1,140 @@
+{
+  "title": "tech_report",
+  "slides": [
+    {
+      "layout": "title_content",
+      "title": "执行摘要",
+      "content": [
+        "全球 AI Agent 市场规模已达 185 亿美元，年增长率 54%"
+      ]
+    },
+    {
+      "layout": "chart",
+      "title": "市场规模与增长",
+      "chart_data": {
+        "type": "column",
+        "categories": [
+          "2023",
+          "2024",
+          "2025",
+          "2026",
+          "2027E"
+        ],
+        "values": [
+          45,
+          78,
+          120,
+          185,
+          280
+        ],
+        "series_name": "市场规模（亿美元）"
+      }
+    },
+    {
+      "layout": "chart",
+      "title": "市场份额分布",
+      "chart_data": {
+        "type": "doughnut",
+        "categories": [
+          "OpenAI",
+          "Google",
+          "Anthropic",
+          "Microsoft",
+          "Meta",
+          "其他"
+        ],
+        "values": [
+          28,
+          22,
+          15,
+          12,
+          8,
+          15
+        ],
+        "series_name": "市场份额"
+      }
+    },
+    {
+      "layout": "chart",
+      "title": "季度增长趋势",
+      "chart_data": {
+        "type": "line",
+        "categories": [
+          "Q1",
+          "Q2",
+          "Q3",
+          "Q4"
+        ],
+        "values": [
+          12.5,
+          15.8,
+          18.2,
+          22.4
+        ],
+        "series_name": "季度营收（亿美元）"
+      }
+    },
+    {
+      "layout": "table",
+      "title": "竞品能力对比",
+      "table_data": {
+        "headers": [
+          "厂商",
+          "模型能力",
+          "工具生态",
+          "安全对齐",
+          "企业采纳"
+        ],
+        "rows": [
+          [
+            "OpenAI",
+            "9.5",
+            "9.0",
+            "8.0",
+            "9.5"
+          ],
+          [
+            "Google",
+            "9.0",
+            "8.5",
+            "7.5",
+            "8.0"
+          ],
+          [
+            "Anthropic",
+            "8.5",
+            "7.0",
+            "9.5",
+            "6.5"
+          ],
+          [
+            "Microsoft",
+            "8.0",
+            "9.5",
+            "7.0",
+            "9.0"
+          ]
+        ]
+      }
+    },
+    {
+      "layout": "title_content",
+      "title": "技术发展时间轴",
+      "content": [
+        "2023 Q1: GPT-4 发布，开启 Agent 时代"
+      ]
+    },
+    {
+      "layout": "title_content",
+      "title": "关键成功因素",
+      "content": [
+        "模型推理能力持续提升"
+      ]
+    },
+    {
+      "layout": "closing",
+      "title": "谢谢",
+      "subtitle": "Q & A"
+    }
+  ]
+}

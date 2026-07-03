@@ -1,0 +1,10 @@
+{
+  "title": "Image Constraint Test",
+  "slides": [
+    {
+      "layout": "image_hero_constraint",
+      "image_path": "examples/auto_img_slide_004.png",
+      "title": "图片自适应高度测试"
+    }
+  ]
+}

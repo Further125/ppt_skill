@@ -1,0 +1,49 @@
+{
+  "name": "l_shape",
+  "description": "L形布局：左侧/上方大区域 + 底部/右侧补充条",
+  "shapes": [
+    {
+      "role": "title",
+      "type": "textbox",
+      "region": {"left": "6%", "top": "4%", "width": "86%", "height": "10%"},
+      "style": "heading-1",
+      "content_source": "title",
+      "adaptive": {"strategy": "shrink", "min_size": 28}
+    },
+    {
+      "role": "accent_line",
+      "type": "shape",
+      "shape_type": "rectangle",
+      "attach": {"to": "title", "edge": "bottom", "offset": "0%"},
+      "region": {"left": "6%", "width": "11.3%", "height": "0.7%"},
+      "style": "accent-line"
+    },
+    {
+      "role": "main",
+      "type": "textbox",
+      "attach": {"to": "accent_line", "edge": "bottom", "offset": "3%"},
+      "region": {"left": "6%", "width": "60%", "height": "70%"},
+      "style": "body",
+      "content_source": "main_content",
+      "adaptive": {"strategy": "shrink", "max_size": 40, "min_size": 14}
+    },
+    {
+      "role": "side",
+      "type": "textbox",
+      "attach": {"to": "accent_line", "edge": "bottom", "offset": "3%"},
+      "region": {"left": "69%", "width": "25%", "height": "70%"},
+      "style": {"font_size": 16, "color": "#4B5563", "font_name": "Microsoft YaHei"},
+      "content_source": "side_content",
+      "adaptive": {"strategy": "shrink", "max_size": 28, "min_size": 12}
+    },
+    {
+      "role": "bottom_bar",
+      "type": "textbox",
+      "attach": {"to": "main", "edge": "bottom", "offset": "2%"},
+      "region": {"left": "6%", "width": "88%", "height": "10%"},
+      "style": {"font_size": 14, "color": "#6B7280", "font_name": "Microsoft YaHei"},
+      "content_source": "bottom_bar",
+      "adaptive": {"strategy": "shrink", "max_size": 20, "min_size": 10}
+    }
+  ]
+}

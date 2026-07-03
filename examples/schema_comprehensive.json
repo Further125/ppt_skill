@@ -1,0 +1,61 @@
+{
+  "title": "Schema Comprehensive Test",
+  "slides": [
+    {
+      "layout": "cover",
+      "title": "Schema系统全面测试",
+      "subtitle": "声明式布局引擎",
+      "date": "2026年6月"
+    },
+    {
+      "layout": "title_content",
+      "title": "单栏内容页（Schema）",
+      "content": [
+        "Schema驱动的渲染系统",
+        "相对坐标易于LLM理解",
+        "attach机制实现相对定位"
+      ]
+    },
+    {
+      "layout": "two_column",
+      "title": "双栏对比（Schema）",
+      "left_content": [
+        "Schema优势：声明式",
+        "易于扩展新布局",
+        "attach相对定位"
+      ],
+      "right_content": [
+        "旧模式：命令式",
+        "硬编码if-else",
+        "EMU坐标难理解"
+      ]
+    },
+    {
+      "layout": "quote",
+      "quote": "最好的代码是没有代码",
+      "author": "—— 某位程序员"
+    },
+    {
+      "layout": "data_highlight",
+      "title": "核心数据",
+      "big_number": "99.9%",
+      "label": "系统可用性"
+    },
+    {
+      "layout": "closing",
+      "title": "谢谢观看",
+      "subtitle": "Questions?"
+    },
+    {
+      "layout": "chart",
+      "title": "旧模式图表（向后兼容）",
+      "description": "验证非schema layout仍可用",
+      "chart_data": {
+        "type": "column",
+        "categories": ["Q1", "Q2", "Q3", "Q4"],
+        "values": [100, 150, 200, 250],
+        "series_name": "营收"
+      }
+    }
+  ]
+}

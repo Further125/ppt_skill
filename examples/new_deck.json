@@ -1,0 +1,9 @@
+{
+  "slides": [
+    {"layout": "cover", "title": "项目报告", "subtitle": "v2.0 更新版", "date": "2026-06-25"},
+    {"layout": "title_content", "title": "市场分析", "content": ["市场规模120亿", "增长率25%", "头部效应明显"]},
+    {"layout": "chart", "title": "营收趋势", "description": "", "chart_data": {"type": "column", "categories": ["Q1","Q2","Q3"], "values": [100,150,200], "series_name": "营收"}},
+    {"layout": "data_highlight", "title": "核心指标", "big_number": "120亿", "label": "市场规模"},
+    {"layout": "closing", "title": "Thank You", "subtitle": "欢迎交流"}
+  ]
+}

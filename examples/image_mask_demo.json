@@ -1,0 +1,52 @@
+{
+  "title": "Image Mask & Z-Order Demo",
+  "slides": [
+    {
+      "layout": "title_content",
+      "title": "图片裁剪与蒙版",
+      "content": "测试圆形蒙版、矩形裁剪和 z-order 层级",
+      "shapes": [
+        {
+          "type": "image",
+          "path": "/tmp/blue.png",
+          "left": 500000,
+          "top": 4000000,
+          "width": 1500000,
+          "height": 1500000,
+          "mask": "circle",
+          "z_order": 1
+        },
+        {
+          "type": "image",
+          "path": "/tmp/red.png",
+          "left": 2500000,
+          "top": 4000000,
+          "width": 1500000,
+          "height": 1500000,
+          "mask": "rounded_rectangle",
+          "z_order": 2
+        },
+        {
+          "type": "image",
+          "path": "/tmp/red.png",
+          "left": 4500000,
+          "top": 4000000,
+          "width": 1500000,
+          "height": 1500000,
+          "crop": {"left": 0.2, "right": 0.2, "top": 0, "bottom": 0},
+          "z_order": 3
+        },
+        {
+          "type": "shape",
+          "shape_type": "rectangle",
+          "left": 2000000,
+          "top": 3800000,
+          "width": 4000000,
+          "height": 2000000,
+          "fill": "#F3F4F6",
+          "z_order": 0
+        }
+      ]
+    }
+  ]
+}

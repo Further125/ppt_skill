@@ -1,0 +1,71 @@
+{
+  "name": "mixed_grid",
+  "description": "混合网格布局：2×2 不等大格子，焦点偏移",
+  "shapes": [
+    {
+      "role": "title",
+      "type": "textbox",
+      "region": {"left": "6%", "top": "4%", "width": "86%", "height": "10%"},
+      "style": "heading-1",
+      "content_source": "title",
+      "adaptive": {"strategy": "shrink", "min_size": 28}
+    },
+    {
+      "role": "accent_line",
+      "type": "shape",
+      "shape_type": "rectangle",
+      "attach": {"to": "title", "edge": "bottom", "offset": "0%"},
+      "region": {"left": "6%", "width": "11.3%", "height": "0.7%"},
+      "style": "accent-line"
+    },
+    {
+      "role": "focus_card",
+      "type": "textbox",
+      "attach": {"to": "accent_line", "edge": "bottom", "offset": "3%"},
+      "region": {"left": "6%", "width": "56%", "height": "38%"},
+      "style": {"font_size": 20, "color": "#1F2937", "font_name": "Microsoft YaHei"},
+      "content_source": "focus_card",
+      "adaptive": {"strategy": "shrink", "max_size": 28, "min_size": 16}
+    },
+    {
+      "role": "card_1",
+      "type": "textbox",
+      "attach": {"to": "accent_line", "edge": "bottom", "offset": "3%"},
+      "region": {"left": "65%", "width": "29%", "height": "18%"},
+      "style": {"font_size_ref": "focus_card", "font_size_ratio": 0.75, "color": "#4B5563", "font_name": "Microsoft YaHei"},
+      "content_source": "card_1",
+      "uniform_group": "cards",
+      "adaptive": {"strategy": "shrink", "max_size": 22, "min_size": 12}
+    },
+    {
+      "role": "card_2",
+      "type": "textbox",
+      "attach": {"to": "card_1", "edge": "bottom", "offset": "2%"},
+      "region": {"left": "65%", "width": "29%", "height": "18%"},
+      "style": {"font_size_ref": "focus_card", "font_size_ratio": 0.75, "color": "#4B5563", "font_name": "Microsoft YaHei"},
+      "content_source": "card_2",
+      "uniform_group": "cards",
+      "adaptive": {"strategy": "shrink", "max_size": 22, "min_size": 12}
+    },
+    {
+      "role": "card_3",
+      "type": "textbox",
+      "attach": {"to": "focus_card", "edge": "bottom", "offset": "2%"},
+      "region": {"left": "6%", "width": "29%", "height": "38%"},
+      "style": {"font_size_ref": "focus_card", "font_size_ratio": 0.75, "color": "#4B5563", "font_name": "Microsoft YaHei"},
+      "content_source": "card_3",
+      "uniform_group": "cards",
+      "adaptive": {"strategy": "shrink", "max_size": 22, "min_size": 12}
+    },
+    {
+      "role": "card_4",
+      "type": "textbox",
+      "attach": {"to": "focus_card", "edge": "bottom", "offset": "2%"},
+      "region": {"left": "37%", "width": "29%", "height": "38%"},
+      "style": {"font_size_ref": "focus_card", "font_size_ratio": 0.75, "color": "#4B5563", "font_name": "Microsoft YaHei"},
+      "content_source": "card_4",
+      "uniform_group": "cards",
+      "adaptive": {"strategy": "shrink", "max_size": 22, "min_size": 12}
+    }
+  ]
+}

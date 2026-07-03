@@ -1,0 +1,74 @@
+{
+  "title": "AI Agent Architecture",
+  "theme": {
+    "primary": "#0F2B5B",
+    "accent": "#C9A96E",
+    "bg": "#FFFFFF",
+    "text": "#1A1A2E",
+    "light_text": "#6B7280"
+  },
+  "slides": [
+    {
+      "layout": "cover",
+      "title": "AI Agent Architecture",
+      "subtitle": "From Single Agent to Multi-Agent Ecosystems",
+      "date": "2026"
+    },
+    {
+      "layout": "data_highlight",
+      "title": "Market Penetration",
+      "big_number": "85%",
+      "label": " Enterprises will deploy AI Agents by 2026"
+    },
+    {
+      "layout": "title_content",
+      "title": "Core Patterns",
+      "content": [
+        "Reflection — Agent self-critique and iterative improvement",
+        "Tool Use — External API calls, search, code execution",
+        "Planning — Decompose complex tasks into sub-tasks",
+        "Multi-Agent — Expert agents collaborate in swarms"
+      ]
+    },
+    {
+      "layout": "timeline",
+      "title": "Evolution Timeline",
+      "timeline_data": {
+        "milestones": [
+          {"date": "2023 Q1", "title": "LLM Boom", "description": "ChatGPT triggers foundation model race"},
+          {"date": "2023 Q3", "title": "ReAct Pattern", "description": "Reasoning + Acting paradigm emerges"},
+          {"date": "2024 Q1", "title": "AutoGen & CrewAI", "description": "Multi-agent frameworks gain traction"},
+          {"date": "2024 Q4", "title": "LangGraph", "description": "State-machine orchestration goes mainstream"},
+          {"date": "2025 Q2", "title": "A2A Protocol", "description": "Google proposes agent-to-agent standard"},
+          {"date": "2026 Q1", "title": "Enterprise Scale", "description": "Production multi-agent systems deployed"}
+        ]
+      }
+    },
+    {
+      "layout": "two_column",
+      "title": "Single vs Multi-Agent",
+      "left_content": [
+        "One LLM handles all tasks",
+        "Simple state management",
+        "Low latency, predictable",
+        "Best for: Q&A, summarization"
+      ],
+      "right_content": [
+        "Specialized agents分工协作",
+        "Complex state graphs",
+        "Higher latency, more capable",
+        "Best for: research, coding, automation"
+      ]
+    },
+    {
+      "layout": "quote",
+      "quote": "The future belongs to agents that can reason, plan, and collaborate.",
+      "author": "— Andrej Karpathy, 2025"
+    },
+    {
+      "layout": "closing",
+      "title": "Thank You",
+      "subtitle": "Questions? Let's discuss agent architecture."
+    }
+  ]
+}

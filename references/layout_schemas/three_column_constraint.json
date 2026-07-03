@@ -1,0 +1,49 @@
+{
+  "name": "three_column_constraint",
+  "description": "三栏约束求解布局：字体尽量大，边框自动编排",
+  "layout_mode": "constraint",
+  "shapes": [
+    {
+      "role": "title",
+      "type": "textbox",
+      "region": {"left": "5%", "top": "5%", "width": "90%", "height": "10%"},
+      "style": {"font_scale": 2.2, "bold": true, "color": "#1F2937", "font_name": "Microsoft YaHei"},
+      "content_source": "title"
+    },
+    {
+      "role": "accent_line",
+      "type": "shape",
+      "shape_type": "rectangle",
+      "attach": {"to": "title", "edge": "bottom", "offset": "0%"},
+      "region": {"left": "5%", "width": "12%", "height": "0.7%"},
+      "style": "accent-line"
+    },
+    {
+      "role": "col_1",
+      "type": "textbox",
+      "attach": {"to": "accent_line", "edge": "bottom", "offset": "2%"},
+      "region": {"left": "4%", "width": "29%", "height": "88%"},
+      "style": {"max_font_size": 22, "color": "#1F2937", "font_name": "Microsoft YaHei"},
+      "content_source": "col_1",
+      "uniform_group": "body"
+    },
+    {
+      "role": "col_2",
+      "type": "textbox",
+      "attach": {"to": "accent_line", "edge": "bottom", "offset": "2%"},
+      "region": {"left": "35.5%", "width": "29%", "height": "88%"},
+      "style": {"max_font_size": 22, "color": "#1F2937", "font_name": "Microsoft YaHei"},
+      "content_source": "col_2",
+      "uniform_group": "body"
+    },
+    {
+      "role": "col_3",
+      "type": "textbox",
+      "attach": {"to": "accent_line", "edge": "bottom", "offset": "2%"},
+      "region": {"left": "67%", "width": "29%", "height": "88%"},
+      "style": {"max_font_size": 22, "color": "#1F2937", "font_name": "Microsoft YaHei"},
+      "content_source": "col_3",
+      "uniform_group": "body"
+    }
+  ]
+}

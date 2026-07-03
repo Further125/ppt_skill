@@ -1,0 +1,111 @@
+{
+  "title": "Multi-Agent Framework Comparison",
+  "slides": [
+    {
+      "layout": "cover",
+      "title": "Multi-Agent Framework",
+      "subtitle": "Landscape & Comparison 2026",
+      "date": "2026"
+    },
+    {
+      "layout": "toc",
+      "title": "目录",
+      "items": [
+        "MetaGPT：角色驱动架构",
+        "AutoGen：对话式架构",
+        "CrewAI：专业团队架构",
+        "LangGraph：状态机架构",
+        "Swarms：群体智能架构",
+        "对比矩阵",
+        "选型建议"
+      ]
+    },
+    {
+      "layout": "title_content",
+      "title": "MetaGPT — 角色驱动",
+      "content": [
+        "⭐ GitHub Stars: 69K (最流行)",
+        "核心思想：模拟软件公司组织架构",
+        "角色体系：产品经理、架构师、工程师、测试员",
+        "工作流：需求分析 → 设计 → 编码 → 测试",
+        "最佳场景：软件开发、复杂项目交付"
+      ]
+    },
+    {
+      "layout": "title_content",
+      "title": "AutoGen — 对话式",
+      "content": [
+        "⭐ GitHub Stars: 38K (微软出品)",
+        "核心思想：通过对话实现Agent协作",
+        "特点：可对话、可编程、可扩展",
+        "GroupChat：多Agent群聊机制",
+        "最佳场景：研究、数据分析、代码生成"
+      ]
+    },
+    {
+      "layout": "title_content",
+      "title": "CrewAI — 专业团队",
+      "content": [
+        "⭐ GitHub Stars: 26K",
+        "核心思想：组建专业团队完成任务",
+        "概念：Crew(团队) + Agent(成员) + Task(任务)",
+        "Process：顺序、层级、协商",
+        "最佳场景：内容创作、市场调研、业务流程"
+      ]
+    },
+    {
+      "layout": "title_content",
+      "title": "LangGraph — 状态机",
+      "content": [
+        "⭐ GitHub Stars: 22K (LangChain生态)",
+        "核心思想：用图结构定义Agent工作流",
+        "节点(Node)：Agent或函数",
+        "边(Edge)：状态转换条件",
+        "循环支持：支持循环、分支、并行",
+        "最佳场景：复杂工作流、需要精确控制的场景"
+      ]
+    },
+    {
+      "layout": "title_content",
+      "title": "Swarms — 群体智能",
+      "content": [
+        "⭐ GitHub Stars: 8K",
+        "核心思想：生物启发的群体智能",
+        "特点：去中心化、自组织、涌现行为",
+        "Swarm Intelligence：蚁群、鸟群算法",
+        "最佳场景：探索性任务、创意生成、大规模并行"
+      ]
+    },
+    {
+      "layout": "table",
+      "title": "框架对比矩阵",
+      "description": "五个维度综合评估",
+      "table_data": {
+        "headers": ["维度", "MetaGPT", "AutoGen", "CrewAI", "LangGraph", "Swarms"],
+        "rows": [
+          ["易用性", "★★★☆☆", "★★★★☆", "★★★★★", "★★★☆☆", "★★☆☆☆"],
+          ["可控性", "★★★★☆", "★★★☆☆", "★★★★☆", "★★★★★", "★★☆☆☆"],
+          ["扩展性", "★★★★★", "★★★★★", "★★★★☆", "★★★★★", "★★★★☆"],
+          ["社区活跃", "★★★★★", "★★★★★", "★★★★☆", "★★★★★", "★★★☆☆"],
+          ["企业适用", "★★★★★", "★★★★★", "★★★★☆", "★★★★★", "★★★☆☆"]
+        ]
+      }
+    },
+    {
+      "layout": "title_content",
+      "title": "选型建议",
+      "content": [
+        "软件开发 → MetaGPT（角色分工最完善）",
+        "研究分析 → AutoGen（对话式最灵活）",
+        "业务流程 → CrewAI（最易上手）",
+        "复杂工作流 → LangGraph（状态机最可控）",
+        "创意探索 → Swarms（群体智能最发散）"
+      ]
+    },
+    {
+      "layout": "closing",
+      "title": "Choose Wisely",
+      "subtitle": "没有最好的框架，只有最合适的框架"
+    }
+  ]
+}

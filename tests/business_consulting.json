@@ -1,0 +1,148 @@
+{
+  "title": "business_consulting",
+  "slides": [
+    {
+      "layout": "title_content",
+      "title": "项目背景与目标",
+      "content": [
+        "客户为制造业龙头，年营收 500 亿"
+      ]
+    },
+    {
+      "layout": "tree",
+      "title": "竞争威胁分析",
+      "tree_data": {
+        "type": "tree",
+        "root": "竞争威胁",
+        "children": [
+          {
+            "label": "直接竞争对手"
+          },
+          {
+            "label": "替代品威胁"
+          },
+          {
+            "label": "新进入者"
+          },
+          {
+            "label": "供应商议价"
+          },
+          {
+            "label": "买方议价"
+          }
+        ]
+      }
+    },
+    {
+      "layout": "title_content",
+      "title": "实施路线图",
+      "content": [
+        "Phase 1: 基础设施搭建（0-3月）"
+      ]
+    },
+    {
+      "layout": "table",
+      "title": "SWOT 分析",
+      "table_data": {
+        "headers": [
+          "优势",
+          "劣势"
+        ],
+        "rows": [
+          [
+            "资金充裕",
+            "人才短缺"
+          ],
+          [
+            "品牌力强",
+            "系统老旧"
+          ],
+          [
+            "产业链完整",
+            "变革阻力大"
+          ]
+        ]
+      }
+    },
+    {
+      "layout": "table",
+      "title": "机会",
+      "table_data": {
+        "headers": [
+          "机会",
+          "威胁"
+        ],
+        "rows": [
+          [
+            "政策支持",
+            "竞争对手快"
+          ],
+          [
+            "技术成熟",
+            "经济不确定"
+          ],
+          [
+            "市场需求旺",
+            "监管趋严"
+          ]
+        ]
+      }
+    },
+    {
+      "layout": "team",
+      "title": "核心团队",
+      "team_data": {
+        "members": [
+          {
+            "name": "Member A",
+            "role": "项目总监",
+            "desc": "20年咨询经验"
+          },
+          {
+            "name": "Member B",
+            "role": "技术架构师",
+            "desc": "资深技术专家"
+          },
+          {
+            "name": "Member C",
+            "role": "变革管理",
+            "desc": "组织发展专家"
+          }
+        ]
+      }
+    },
+    {
+      "layout": "chart",
+      "title": "投资回报预测",
+      "chart_data": {
+        "type": "waterfall",
+        "categories": [
+          "基线",
+          "效率提升",
+          "成本节约",
+          "收入增长",
+          "净收益"
+        ],
+        "values": [
+          0,
+          120,
+          80,
+          150,
+          350
+        ]
+      }
+    },
+    {
+      "layout": "title_content",
+      "title": "下一步行动",
+      "content": [
+        "立即启动 Phase 1 详细设计"
+      ]
+    },
+    {
+      "layout": "closing",
+      "title": "谢谢",
+      "subtitle": "Q & A"
+    }
+  ]
+}

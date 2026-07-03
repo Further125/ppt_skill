@@ -1,0 +1,81 @@
+{
+  "title": "高级功能演示",
+  "slides": [
+    {
+      "layout": "cover",
+      "title": "高级功能演示",
+      "subtitle": "主题换肤 + 高级图表 + 导出",
+      "date": "2026年6月"
+    },
+    {
+      "layout": "waterfall",
+      "title": "瀑布图：年度利润分析",
+      "description": "从收入到净利润的逐项分解",
+      "chart_data": {
+        "categories": ["收入", "成本", "毛利", "运营", "研发", "市场", "净利润"],
+        "values": [5000, -3000, 2000, -500, -400, -300, 800],
+        "last_is_total": true
+      }
+    },
+    {
+      "layout": "funnel",
+      "title": "漏斗图：销售转化",
+      "chart_data": {
+        "stages": [
+          {"name": "访客", "value": 10000},
+          {"name": "注册", "value": 3500},
+          {"name": "试用", "value": 1200},
+          {"name": "付费", "value": 480},
+          {"name": "续费", "value": 320}
+        ]
+      }
+    },
+    {
+      "layout": "gantt",
+      "title": "甘特图：项目排期",
+      "chart_data": {
+        "start_month": 1,
+        "end_month": 6,
+        "tasks": [
+          {"name": "需求分析", "start": 1, "end": 2},
+          {"name": "系统设计", "start": 2, "end": 3},
+          {"name": "开发实施", "start": 3, "end": 5},
+          {"name": "测试上线", "start": 5, "end": 6, "milestone": true}
+        ]
+      }
+    },
+    {
+      "layout": "wordcloud",
+      "title": "词云：用户反馈关键词",
+      "words": [
+        {"word": "易用", "count": 50},
+        {"word": "速度快", "count": 45},
+        {"word": "界面美观", "count": 40},
+        {"word": "功能强大", "count": 38},
+        {"word": "客服好", "count": 35},
+        {"word": "稳定", "count": 30},
+        {"word": "性价比", "count": 28},
+        {"word": "推荐", "count": 25},
+        {"word": "专业", "count": 22},
+        {"word": "创新", "count": 20}
+      ]
+    },
+    {
+      "layout": "title_content",
+      "title": "含超链接的页面",
+      "content": ["点击此页任意文本可跳转到官网", "支持形状超链接和文本超链接"],
+      "hyperlink": "https://example.com"
+    },
+    {
+      "layout": "data_highlight",
+      "title": "核心指标",
+      "big_number": "100%",
+      "label": "功能覆盖率"
+    },
+    {
+      "layout": "closing",
+      "title": "Thank You",
+      "subtitle": "支持主题换肤 / 高级图表 / 动画 / 导出"
+    }
+  ]
+}

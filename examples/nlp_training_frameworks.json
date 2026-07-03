@@ -1,0 +1,269 @@
+{
+  "title": "开源 NLP 训练框架全景研究",
+  "subtitle": "GitHub 主流 LLM 训练与微调框架对比分析 · 2026",
+  "slides": [
+    {
+      "layout": "cover",
+      "title": "开源 NLP 训练框架全景研究",
+      "subtitle": "GitHub 主流 LLM 训练与微调框架对比分析 · 2026"
+    },
+    {
+      "layout": "title_content",
+      "title": "研究背景与范围",
+      "content": [
+        "2024-2026 年是大模型训练框架的爆发期，GitHub 上涌现了大量高效微调、分布式训练和 RL 工具",
+        "本报告聚焦 Stars > 5K、社区活跃、在生产环境有实际落地的训练框架",
+        "评估维度：模型数、训练方法、量化级别、分布式能力、硬件适配、易用性",
+        "数据来源：GitHub Stars / Forks / Issues（2026-06-29 实时数据）",
+        "参考：官方 README、论文引用（ACL 2024 等）、企业案例（AWS、NVIDIA）"
+      ]
+    },
+    {
+      "layout": "title_content",
+      "accent_line": false,
+      "title": "市场格局",
+      "content": "",
+      "shapes": [
+        {
+          "type": "shape",
+          "shape_type": "oval",
+          "left": 800000,
+          "top": 1600000,
+          "width": 2000000,
+          "height": 2000000,
+          "fill": "#3B82F6",
+          "content": [{"text": "8\n", "bold": true, "color": "#FFFFFF", "size": 80}, {"text": "大框架", "color": "#DBEAFE", "size": 28}],
+          "alignment": "center",
+          "vertical_center": true
+        },
+        {
+          "type": "text",
+          "left": 3200000,
+          "top": 1800000,
+          "width": 7400000,
+          "height": 2200000,
+          "content": "GitHub Stars 反映社区热度。LlamaFactory 72.6K 领跑，Unsloth 67.5K 紧随。DeepSpeed 和 ColossalAI 占据分布式训练核心地位。",
+          "font_size": 30,
+          "color": "#374151"
+        },
+        {
+          "type": "shape",
+          "shape_type": "rounded_rectangle",
+          "left": 678400,
+          "top": 4300000,
+          "width": 2200000,
+          "height": 900000,
+          "fill": "#1E3A5F",
+          "content": [{"text": "72.6K\n", "bold": true, "color": "#FFFFFF", "size": 32}, {"text": "LlamaFactory", "color": "#93C5FD", "size": 14}],
+          "alignment": "center",
+          "vertical_center": true
+        },
+        {
+          "type": "shape",
+          "shape_type": "rounded_rectangle",
+          "left": 3556800,
+          "top": 4300000,
+          "width": 2200000,
+          "height": 900000,
+          "fill": "#1E3A5F",
+          "content": [{"text": "67.5K\n", "bold": true, "color": "#FFFFFF", "size": 32}, {"text": "Unsloth", "color": "#93C5FD", "size": 14}],
+          "alignment": "center",
+          "vertical_center": true
+        },
+        {
+          "type": "shape",
+          "shape_type": "rounded_rectangle",
+          "left": 6435200,
+          "top": 4300000,
+          "width": 2200000,
+          "height": 900000,
+          "fill": "#1E3A5F",
+          "content": [{"text": "42.6K\n", "bold": true, "color": "#FFFFFF", "size": 32}, {"text": "DeepSpeed", "color": "#93C5FD", "size": 14}],
+          "alignment": "center",
+          "vertical_center": true
+        },
+        {
+          "type": "shape",
+          "shape_type": "rounded_rectangle",
+          "left": 9313600,
+          "top": 4300000,
+          "width": 2200000,
+          "height": 900000,
+          "fill": "#1E3A5F",
+          "content": [{"text": "41.4K\n", "bold": true, "color": "#FFFFFF", "size": 32}, {"text": "ColossalAI", "color": "#93C5FD", "size": 14}],
+          "alignment": "center",
+          "vertical_center": true
+        },
+        {
+          "type": "shape",
+          "shape_type": "rounded_rectangle",
+          "left": 678400,
+          "top": 5500000,
+          "width": 2200000,
+          "height": 900000,
+          "fill": "#1E3A5F",
+          "content": [{"text": "18.7K\n", "bold": true, "color": "#FFFFFF", "size": 32}, {"text": "TRL (HF)", "color": "#93C5FD", "size": 14}],
+          "alignment": "center",
+          "vertical_center": true
+        },
+        {
+          "type": "shape",
+          "shape_type": "rounded_rectangle",
+          "left": 3556800,
+          "top": 5500000,
+          "width": 2200000,
+          "height": 900000,
+          "fill": "#1E3A5F",
+          "content": [{"text": "12.1K\n", "bold": true, "color": "#FFFFFF", "size": 32}, {"text": "Axolotl", "color": "#93C5FD", "size": 14}],
+          "alignment": "center",
+          "vertical_center": true
+        },
+        {
+          "type": "shape",
+          "shape_type": "rounded_rectangle",
+          "left": 6435200,
+          "top": 5500000,
+          "width": 2200000,
+          "height": 900000,
+          "fill": "#1E3A5F",
+          "content": [{"text": "9.7K\n", "bold": true, "color": "#FFFFFF", "size": 32}, {"text": "Accelerate", "color": "#93C5FD", "size": 14}],
+          "alignment": "center",
+          "vertical_center": true
+        }
+      ]
+    },
+    {
+      "layout": "table",
+      "title": "八大框架核心特性对比",
+      "description": "从定位、训练方法、量化支持和分布式能力四个维度对比",
+      "table_data": {
+        "headers": ["框架", "Stars", "定位", "训练方法", "量化支持", "分布式"],
+        "rows": [
+          ["LlamaFactory", "72.6K", "统一微调平台", "SFT/DPO/RLHF/预训练", "2-8bit QLoRA", "FSDP/DeepSpeed"],
+          ["Unsloth", "67.5K", "高效训练内核", "SFT/RL/预训练", "4bit/16bit/FP8", "多GPU"],
+          ["DeepSpeed", "42.6K", "分布式训练库", "全参数/ ZeRO", "fp16/bf16", "数据/模型/流水线并行"],
+          ["ColossalAI", "41.4K", "大规模训练系统", "预训练/微调/推理", "fp16/bf16", "混合并行"],
+          ["TRL", "18.7K", "强化学习训练", "PPO/DPO/GRPO", "QLoRA", "Accelerate"],
+          ["Axolotl", "12.1K", "YAML 驱动微调", "SFT/DPO", "QLoRA", "DeepSpeed"],
+          ["Accelerate", "9.7K", "分布式启动器", "通用训练", "fp8/fp16/bf16", "FSDP/DeepSpeed"]
+        ]
+      }
+    },
+    {
+      "layout": "title_content",
+      "title": "LlamaFactory：统一高效微调平台",
+      "content": [
+        "ACL 2024 收录的统一高效微调框架，支持 100+ LLM/VLM 模型。",
+        "",
+        "核心特性：",
+        "多种模型：LLaMA、Qwen、DeepSeek、Gemma、Mistral、GLM 等 100+",
+        "集成方法：预训练、SFT、奖励建模、PPO、DPO、KTO、ORPO、SimPO",
+        "可扩展资源：全参数、Freeze、LoRA、QLoRA（2-8bit）",
+        "高级算法：GaLore、BAdam、APOLLO、Adam-mini、DoRA、LongLoRA",
+        "实用技巧：FlashAttention-2、Unsloth 补丁、NEFTune、RoPE 缩放",
+        "广泛任务：多轮对话、工具调用、图像/视频/音频理解",
+        "实验监控：LlamaBoard、TensorBoard、Wandb、SwanLab",
+        "快速推理：OpenAI 风格 API + vLLM/SGLang 后端"
+      ]
+    },
+    {
+      "layout": "title_content",
+      "title": "Unsloth：2x 速度 + 70% 显存节省",
+      "content": [
+        "自定义 Triton 内核实现的高效训练库，支持 500+ 模型的 2 倍速训练。",
+        "",
+        "核心特性：",
+        "训练速度提升 2 倍，显存减少 70%，精度零损失",
+        "自定义 Triton 内核，与 PyTorch、Hugging Face 深度合作",
+        "支持全参数微调、RL、预训练、4bit/16bit/FP8",
+        "Unsloth Studio：Web UI 支持多模态训练",
+        "Data Recipes：从 PDF/CSV/DOCX 自动创建数据集",
+        "强化学习：GRPO 使用 80% 更少显存，支持 FP8",
+        "多 GPU 训练，500K 超长上下文（80GB GPU 上 20B 模型）",
+        "与 GPT-OSS、Qwen、Llama、Mistral、Gemma、Phi 团队合作"
+      ]
+    },
+    {
+      "layout": "title_content",
+      "title": "DeepSpeed：微软分布式训练基础设施",
+      "content": [
+        "微软出品的深度学习优化库，让分布式训练和推理变得简单、高效、有效。",
+        "",
+        "核心特性：",
+        "ZeRO：数据/模型/流水线三级并行",
+        "支持万亿参数模型训练，CPU/NVMe Offload",
+        "混合精度训练（fp16/bf16）和自动混合精度",
+        "DeepSpeed-Inference：大规模模型高效推理",
+        "DeepSpeed-MoE：专家混合模型高效训练",
+        "与 Hugging Face、Accelerate、PyTorch 深度集成",
+        "广泛应用于 GPT-3、BLOOM、OPT 等大模型训练",
+        "支持压缩、数据并行、模型并行、流水线并行"
+      ]
+    },
+    {
+      "layout": "title_content",
+      "title": "ColossalAI：让大模型更便宜更快",
+      "content": [
+        "HPC-AI Tech 出品的大规模 AI 模型分布式训练系统。",
+        "",
+        "核心特性：",
+        "异构训练：GPU/CPU/NVMe 之间自动分配模型状态",
+        "多维并行：数据/张量/流水线/序列并行",
+        "Gemini 内存管理器：统一管理 GPU/CPU/NVMe 内存",
+        "支持从 1B 到 100B+ 参数模型的训练",
+        "Colossal-LLaMA-2：开源 34B 中英文大模型",
+        "推理优化：Tensor Parallelism + 动态批处理",
+        "支持昇腾 NPU、AMD GPU 等多种硬件",
+        "与 PyTorch 生态完全兼容"
+      ]
+    },
+    {
+      "layout": "title_content",
+      "title": "TRL / Axolotl / Accelerate",
+      "content": "HuggingFace 生态三剑客，分别覆盖 RL 训练、YAML 驱动微调和分布式启动。\n\nTRL（Transformers RL）— 18.7K Stars\n• PPO、DPO、GRPO、Online DPO 强化学习训练\n• 与 PEFT/QLoRA 深度集成，广泛用于 RLHF\n\nAxolotl — 12.1K Stars\n• YAML 配置文件驱动，零代码微调\n• 支持多种数据集格式，与 DeepSpeed、FSDP 集成\n\nAccelerate — 9.7K Stars\n• 一行代码启动 PyTorch 分布式训练\n• 自动混合精度（FP8）、FSDP、DeepSpeed 支持"
+    },
+    {
+      "layout": "chart",
+      "title": "框架 GitHub Stars 对比",
+      "description": "各框架在 GitHub 上的受欢迎程度",
+      "chart_data": {
+        "type": "column",
+        "categories": ["LlamaFactory", "Unsloth", "DeepSpeed", "ColossalAI", "TRL", "Axolotl", "Accelerate"],
+        "values": [72670, 67533, 42594, 41410, 18729, 12101, 9744],
+        "series_name": "Stars"
+      }
+    },
+    {
+      "layout": "process",
+      "title": "选型建议",
+      "process_data": {
+        "steps": [
+          {"title": "微调平台\nLlamaFactory"},
+          {"title": "极速省显存\nUnsloth"},
+          {"title": "分布式\nDeepSpeed"},
+          {"title": "异构硬件\nColossalAI"},
+          {"title": "RLHF 对齐\nTRL"},
+          {"title": "YAML 微调\nAxolotl"}
+        ]
+      }
+    },
+    {
+      "layout": "title_content",
+      "title": "趋势与展望",
+      "content": [
+        "效率优先：Unsloth 的 2x 速度和 70% 显存节省成为新标杆",
+        "统一平台化：LlamaFactory 一站式方案（训练+推理+部署）成主流",
+        "RL 训练普及：GRPO、DPO 从研究走向生产，TRL 快速迭代",
+        "多模态扩展：视觉、音频、嵌入模型训练支持成标配",
+        "量化深化：从 4bit QLoRA 到 2bit、FP8，精度损失趋近于零",
+        "长上下文：500K+ 上下文训练在消费级 GPU 上成为可能",
+        "硬件多元化：NVIDIA、昇腾 NPU、AMD、Intel、Apple 全平台支持"
+      ]
+    },
+    {
+      "layout": "closing",
+      "title": "感谢观看",
+      "subtitle": "数据来源：GitHub · 生成时间：2026-06-29"
+    }
+  ]
+}

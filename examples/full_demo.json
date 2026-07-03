@@ -1,0 +1,137 @@
+{
+  "title": "完整功能演示",
+  "slides": [
+    {
+      "layout": "cover",
+      "title": "PPT Skill 完整演示",
+      "subtitle": "13种布局 + 原生图表 + 表格 + 时间轴",
+      "date": "2026年6月"
+    },
+    {
+      "layout": "toc",
+      "title": "目录",
+      "items": [
+        "市场概览与数据",
+        "产品对比分析",
+        "财务数据表格",
+        "项目里程碑",
+        "核心流程",
+        "团队介绍",
+        "关键指标"
+      ]
+    },
+    {
+      "layout": "title_content",
+      "title": "市场概览",
+      "content": [
+        "AI行业2026年市场规模预计突破5000亿美元",
+        "大模型应用从实验室走向生产环境",
+        "垂直领域（医疗、金融、教育）需求激增",
+        "中国市场增速领先全球，年增长率超30%"
+      ]
+    },
+    {
+      "layout": "chart",
+      "title": "年度营收增长趋势",
+      "description": "过去五年营收保持高速增长，2026年预计同比增长45%",
+      "chart_data": {
+        "type": "column",
+        "categories": ["2022", "2023", "2024", "2025", "2026E"],
+        "values": [1200, 1850, 2800, 4100, 5950],
+        "series_name": "营收（万元）"
+      }
+    },
+    {
+      "layout": "chart",
+      "title": "市场份额分布",
+      "description": "各业务线收入占比",
+      "chart_data": {
+        "type": "pie",
+        "categories": ["SaaS产品", "定制开发", "咨询服务", "培训"],
+        "values": [45, 30, 15, 10],
+        "series_name": "占比（%）"
+      }
+    },
+    {
+      "layout": "two_column",
+      "title": "竞品对比：我们 vs 竞争对手",
+      "left_content": [
+        "自研大模型，技术自主可控",
+        "垂直场景覆盖更广（6大行业）",
+        "客户续费率 92%",
+        "7×24小时技术支持"
+      ],
+      "right_content": [
+        "依赖第三方API，存在断供风险",
+        "仅覆盖通用场景，深度不足",
+        "客户续费率 67%",
+        "工作日5×8小时支持"
+      ]
+    },
+    {
+      "layout": "table",
+      "title": "Q1-Q4 财务数据",
+      "description": "2026年各季度关键财务指标",
+      "table_data": {
+        "headers": ["季度", "营收(万)", "毛利(万)", "毛利率", "新增客户"],
+        "rows": [
+          ["Q1", "1200", "720", "60%", "45"],
+          ["Q2", "1580", "948", "60%", "62"],
+          ["Q3", "1850", "1110", "60%", "78"],
+          ["Q4", "2100", "1260", "60%", "95"]
+        ]
+      }
+    },
+    {
+      "layout": "timeline",
+      "title": "产品路线图",
+      "timeline_data": {
+        "milestones": [
+          {"date": "2026 Q1", "desc": "基础平台上线\n核心功能交付"},
+          {"date": "2026 Q2", "desc": "行业解决方案\n首批大客户签约"},
+          {"date": "2026 Q3", "desc": "生态开放\n合作伙伴计划启动"},
+          {"date": "2026 Q4", "desc": "国际化拓展\n东南亚市场试点"}
+        ]
+      }
+    },
+    {
+      "layout": "process",
+      "title": "客户接入流程",
+      "process_data": {
+        "steps": [
+          {"title": "需求调研\n与评估"},
+          {"title": "方案设计\n与报价"},
+          {"title": "开发实施\n与测试"},
+          {"title": "上线交付\n与培训"}
+        ]
+      }
+    },
+    {
+      "layout": "team",
+      "title": "核心团队",
+      "team_data": {
+        "members": [
+          {"name": "Member A", "role": "CEO", "desc": "前大厂技术总监\n15年行业经验"},
+          {"name": "Member B", "role": "CTO", "desc": "AI算法专家\n博士学历"},
+          {"name": "Member C", "role": "产品VP", "desc": "资深产品经理\n主导过3款千万级产品"}
+        ]
+      }
+    },
+    {
+      "layout": "data_highlight",
+      "title": "核心指标",
+      "big_number": "¥5,950万",
+      "label": "2026年预计年度营收"
+    },
+    {
+      "layout": "quote",
+      "quote": "技术不是目的，创造价值才是。",
+      "author": "—— 某创业者"
+    },
+    {
+      "layout": "closing",
+      "title": "Thank You",
+      "subtitle": "期待与您合作"
+    }
+  ]
+}

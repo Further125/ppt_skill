@@ -1,0 +1,11 @@
+{
+  "name": "Rose Elegant",
+  "primary": "#E11D48",
+  "secondary": "#881337",
+  "accent": ["#E11D48", "#FB7185", "#FDA4AF", "#BE123C", "#9F1239", "#F43F5E"],
+  "background": "#FFF1F2",
+  "text": "#4C0519",
+  "light_bg": "#FFE4E6",
+  "font_title": "Microsoft YaHei",
+  "font_body": "Microsoft YaHei"
+}

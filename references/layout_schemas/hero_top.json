@@ -1,0 +1,71 @@
+{
+  "name": "hero_top",
+  "description": "顶部英雄式布局：上方大区域总览 + 下方2-4卡片横排",
+  "shapes": [
+    {
+      "role": "title",
+      "type": "textbox",
+      "region": {"left": "6%", "top": "4%", "width": "86%", "height": "10%"},
+      "style": "heading-1",
+      "content_source": "title",
+      "adaptive": {"strategy": "shrink", "min_size": 28}
+    },
+    {
+      "role": "accent_line",
+      "type": "shape",
+      "shape_type": "rectangle",
+      "attach": {"to": "title", "edge": "bottom", "offset": "0%"},
+      "region": {"left": "6%", "width": "11.3%", "height": "0.7%"},
+      "style": "accent-line"
+    },
+    {
+      "role": "hero",
+      "type": "textbox",
+      "attach": {"to": "accent_line", "edge": "bottom", "offset": "2%"},
+      "region": {"left": "6%", "width": "86%", "height": "38%"},
+      "style": "body",
+      "content_source": "hero_content",
+      "adaptive": {"strategy": "shrink", "max_size": 48, "min_size": 18}
+    },
+    {
+      "role": "card_1",
+      "type": "textbox",
+      "attach": {"to": "hero", "edge": "bottom", "offset": "3%"},
+      "region": {"left": "6%", "width": "20.5%", "height": "38%"},
+      "style": {"font_size": 16, "color": "#1F2937", "font_name": "Microsoft YaHei"},
+      "content_source": "card_1",
+      "uniform_group": "cards",
+      "adaptive": {"strategy": "shrink", "max_size": 28, "min_size": 12}
+    },
+    {
+      "role": "card_2",
+      "type": "textbox",
+      "attach": {"to": "hero", "edge": "bottom", "offset": "3%"},
+      "region": {"left": "28%", "width": "20.5%", "height": "38%"},
+      "style": {"font_size": 16, "color": "#1F2937", "font_name": "Microsoft YaHei"},
+      "content_source": "card_2",
+      "uniform_group": "cards",
+      "adaptive": {"strategy": "shrink", "max_size": 28, "min_size": 12}
+    },
+    {
+      "role": "card_3",
+      "type": "textbox",
+      "attach": {"to": "hero", "edge": "bottom", "offset": "3%"},
+      "region": {"left": "50%", "width": "20.5%", "height": "38%"},
+      "style": {"font_size": 16, "color": "#1F2937", "font_name": "Microsoft YaHei"},
+      "content_source": "card_3",
+      "uniform_group": "cards",
+      "adaptive": {"strategy": "shrink", "max_size": 28, "min_size": 12}
+    },
+    {
+      "role": "card_4",
+      "type": "textbox",
+      "attach": {"to": "hero", "edge": "bottom", "offset": "3%"},
+      "region": {"left": "72%", "width": "20.5%", "height": "38%"},
+      "style": {"font_size": 16, "color": "#1F2937", "font_name": "Microsoft YaHei"},
+      "content_source": "card_4",
+      "uniform_group": "cards",
+      "adaptive": {"strategy": "shrink", "max_size": 28, "min_size": 12}
+    }
+  ]
+}

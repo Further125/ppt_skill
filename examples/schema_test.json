@@ -1,0 +1,21 @@
+{
+  "title": "Schema Test Deck",
+  "slides": [
+    {
+      "layout": "cover",
+      "title": "声明式Schema封面",
+      "subtitle": "测试新架构",
+      "date": "2026年6月"
+    },
+    {
+      "layout": "title_content",
+      "title": "Schema驱动的内容页",
+      "content": [
+        "这是用声明式schema渲染的内容页",
+        "不再需要硬编码的if-else逻辑",
+        "相对坐标让LLM更容易理解",
+        "attach机制实现shape之间的相对定位"
+      ]
+    }
+  ]
+}

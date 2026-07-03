@@ -1,0 +1,131 @@
+{
+  "title": "New Layouts Test",
+  "slides": [
+    {
+      "layout": "hero_top",
+      "title": "Hero Top 布局",
+      "hero_content": [
+        {"text": "Q3 营收增长", "size": 36, "bold": true, "color": "#1F2937"},
+        {"text": "\n"},
+        {"text": "同比 +47%", "size": 64, "bold": true, "color": "#3B82F6"},
+        {"text": "\n"},
+        {"text": "本季度核心业务指标全面超预期，用户规模与收入双轮驱动", "size": 18, "color": "#6B7280"}
+      ],
+      "card_1": ["用户增长", "DAU 240万", "MAU 1800万"],
+      "card_2": ["收入结构", "订阅 68%", "企业 32%"],
+      "card_3": ["增长率", "营收 +47%", "用户 +35%"],
+      "card_4": ["覆盖", "12 国家", "8 语言"]
+    },
+    {
+      "layout": "three_column",
+      "title": "Three Column 三栏布局",
+      "col_1": ["阶段一：验证", "MVP 上线", "种子用户 1000", "核心功能打磨"],
+      "col_2": ["阶段二：增长", "产品市场匹配", "付费用户 10万", "多渠道获客"],
+      "col_3": ["阶段三：规模化", "国际化扩张", "企业版发布", "生态建设"]
+    },
+    {
+      "layout": "asymmetric",
+      "title": "Asymmetric 非对称布局",
+      "primary_content": ["核心架构", "微服务拆分 47 个模块", "平均响应时间 < 50ms", "可用性 99.99%", "自动扩缩容"],
+      "secondary_content": ["补充说明", "技术栈：Go + K8s", "监控：Prometheus", "日志：ELK", "CI/CD：GitHub Actions"]
+    },
+    {
+      "layout": "single_focus",
+      "title": "Single Focus 单焦点布局",
+      "focus": "97.5%",
+      "caption": "客户满意度评分",
+      "details": ["NPS 评分行业第一", "工单解决率 99.2%", "平均响应时间 2.3 分钟", "客户续约率 94%"]
+    },
+    {
+      "layout": "l_shape",
+      "title": "L-Shape L形布局",
+      "main_content": ["核心功能详解", "实时协作编辑", "智能版本管理", "多端同步", "API 开放接口"],
+      "side_content": ["使用场景", "远程团队", "敏捷开发", "知识库"],
+      "bottom_bar": "了解更多：https://example.com/docs"
+    },
+    {
+      "layout": "t_shape",
+      "title": "T-Shape T型布局",
+      "top_bar": ["2024 年度战略目标", "全面数字化转型，构建智能化运营体系"],
+      "bottom_left": ["技术路线", "云原生架构升级", "AI 能力中台", "数据中台建设"],
+      "bottom_right": ["业务目标", "营收增长 50%", "用户规模翻倍", "海外市场突破"]
+    },
+    {
+      "layout": "symmetric",
+      "title": "Symmetric 对称对比",
+      "left_label": "方案 A：自研",
+      "right_label": "方案 B：采购",
+      "left_content": ["优势", "完全可控", "深度定制", "数据安全", "长期成本更低"],
+      "right_content": ["优势", "快速上线", "维护简单", "风险分散", "即时技术支持"]
+    },
+    {
+      "layout": "section",
+      "title": "产品架构",
+      "chapter_num": "02",
+      "subtitle": "从单体到微服务的演进之路"
+    },
+    {
+      "layout": "comparison",
+      "title": "Comparison 对比分析",
+      "header_row": "React                                          VS                                          Vue",
+      "item_a": ["学习曲线", "中等", "生态丰富", "社区活跃", "大厂背书"],
+      "item_b": ["学习曲线", "平缓", "文档友好", "渐进式", "轻量高效"]
+    },
+    {
+      "layout": "mixed_grid",
+      "title": "Mixed Grid 混合网格",
+      "focus_card": ["核心指标", "Q3 营收同比增长 47%", "用户活跃度创历史新高"],
+      "card_1": ["DAU", "240万"],
+      "card_2": ["MAU", "1800万"],
+      "card_3": ["转化率", "12.5%"],
+      "card_4": ["客单价", "¥386"]
+    },
+    {
+      "layout": "primary_secondary",
+      "title": "Primary-Secondary 主次结合",
+      "primary_content": ["产品愿景", "打造全球领先的智能协作平台", "连接人与信息，释放团队创造力", "服务超过 1000 万企业用户"],
+      "secondary_1": ["技术亮点", "AI 智能助手", "实时同步引擎"],
+      "secondary_2": ["市场数据", "覆盖 50+ 国家", "8 种语言支持"]
+    },
+    {
+      "layout": "waterfall_layout",
+      "title": "Waterfall 瀑布流",
+      "card_1": ["用户增长", "DAU +35%", "新增注册 50万"],
+      "card_2": ["收入增长", "ARR +47%", "企业客户翻倍"],
+      "card_3": ["产品迭代", "发布 12 个版本", "闭环需求 200+"],
+      "card_4": ["团队扩展", "新增 30 人", "覆盖 5 个城市"],
+      "card_5": ["技术债务", "重构 8 个模块", "性能提升 40%"],
+      "card_6": ["客户成功", "NPS 72", "续约率 94%"]
+    },
+    {
+      "layout": "image_hero",
+      "title": "Image Hero 图片英雄",
+      "subtitle": "全屏图片叠加文字，电影级视觉冲击力",
+      "image_path": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=1920"
+    },
+    {
+      "layout": "people",
+      "title": "核心团队",
+      "avatar_1": "https://i.pravatar.cc/300?img=1",
+      "name_1": "Member A",
+      "role_1": "CEO",
+      "bio_1": ["10年产品管理经验", "资深产品负责人", "多次创业经验"],
+      "avatar_2": "https://i.pravatar.cc/300?img=5",
+      "name_2": "Member B",
+      "role_2": "CTO",
+      "bio_2": ["15年技术架构经验", "开源社区活跃贡献者", "云原生专家"],
+      "avatar_3": "https://i.pravatar.cc/300?img=9",
+      "name_3": "Member C",
+      "role_3": "CPO",
+      "bio_3": ["8年产品设计经验", "资深产品设计负责人", "用户体验专家"]
+    },
+    {
+      "layout": "timeline_h",
+      "title": "产品演进路线",
+      "node_1": ["2022 Q1", "产品立项", "MVP 验证"],
+      "node_2": ["2022 Q4", "种子轮融资", "首批 1000 用户"],
+      "node_3": ["2023 Q2", "A轮融资", "商业化启动"],
+      "node_4": ["2024 Q1", "规模化扩张", "国际化"]
+    }
+  ]
+}

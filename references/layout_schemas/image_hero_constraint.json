@@ -1,0 +1,21 @@
+{
+  "name": "image_hero_constraint",
+  "description": "图片英雄区约束布局：图片自适应高度 + 文字叠加",
+  "layout_mode": "constraint",
+  "shapes": [
+    {
+      "role": "hero_image",
+      "type": "image",
+      "region": {"left": "0%", "top": "0%", "width": "100%", "height": "70%"},
+      "content_source": "image_path"
+    },
+    {
+      "role": "title",
+      "type": "textbox",
+      "attach": {"to": "hero_image", "edge": "bottom", "offset": "3%"},
+      "region": {"left": "6%", "width": "88%", "height": "20%"},
+      "style": {"font_scale": 2.0, "bold": true, "color": "#1F2937", "font_name": "Microsoft YaHei"},
+      "content_source": "title"
+    }
+  ]
+}

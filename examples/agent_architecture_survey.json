@@ -1,0 +1,211 @@
+{
+  "title": "智能体架构全景研究",
+  "subtitle": "GitHub 主流 AI Agent Framework 对比分析",
+  "slides": [
+    {
+      "layout": "cover",
+      "title": "智能体架构全景研究",
+      "subtitle": "GitHub 主流 AI Agent Framework 对比分析 · 2026"
+    },
+    {
+      "layout": "title_content",
+      "title": "AI Agent 架构全景",
+      "content": "研究背景与范围\n• 2025-2026 年是 AI Agent 框架爆发期，GitHub 月均新增 200+ Agent 相关仓库\n• 本报告选取 Stars > 20K、社区活跃、架构设计有代表性的 6 大框架\n• 评估维度：架构范式、核心抽象、适用场景、生产成熟度\n\n数据来源\n• GitHub Stars / Forks / Issues（2026-06-28 实时数据）\n• 官方 README、文档、论文引用\n• 社区课程认证人数、企业采用案例"
+    },
+    {
+      "layout": "title_content",
+      "title": "市场格局",
+      "accent_line": false,
+      "content": "",
+      "shapes": [
+        {
+          "type": "shape",
+          "shape_type": "oval",
+          "left": 800000,
+          "top": 1800000,
+          "width": 1600000,
+          "height": 1600000,
+          "fill": "#3B82F6",
+          "content": [{"text": "6\n", "bold": true, "color": "#FFFFFF", "size": 72}, {"text": "大框架", "color": "#DBEAFE", "size": 20}],
+          "alignment": "center",
+          "vertical_center": true
+        },
+        {
+          "type": "text",
+          "left": 2800000,
+          "top": 2300000,
+          "width": 8000000,
+          "height": 800000,
+          "content": "GitHub Stars 是衡量开源框架社区热度的重要指标。LangChain 生态以 140K+ Stars 遥遥领先，覆盖从基础组件到高级编排的完整链路。MetaGPT 以 69K Stars 紧随其后，凭借「软件公司」的独特定位引发广泛关注。",
+          "font_size": 18,
+          "color": "#374151"
+        },
+        {
+          "type": "shape",
+          "shape_type": "rounded_rectangle",
+          "left": 1246000,
+          "top": 4600000,
+          "width": 2200000,
+          "height": 900000,
+          "fill": "#1E3A5F",
+          "content": [{"text": "140K+\n", "bold": true, "color": "#FFFFFF", "size": 32}, {"text": "LangChain 生态", "color": "#93C5FD", "size": 14}],
+          "alignment": "center",
+          "vertical_center": true
+        },
+        {
+          "type": "shape",
+          "shape_type": "rounded_rectangle",
+          "left": 3746000,
+          "top": 4600000,
+          "width": 2200000,
+          "height": 900000,
+          "fill": "#1E3A5F",
+          "content": [{"text": "69K\n", "bold": true, "color": "#FFFFFF", "size": 32}, {"text": "MetaGPT", "color": "#93C5FD", "size": 14}],
+          "alignment": "center",
+          "vertical_center": true
+        },
+        {
+          "type": "shape",
+          "shape_type": "rounded_rectangle",
+          "left": 6246000,
+          "top": 4600000,
+          "width": 2200000,
+          "height": 900000,
+          "fill": "#1E3A5F",
+          "content": [{"text": "59K\n", "bold": true, "color": "#FFFFFF", "size": 32}, {"text": "AutoGen (MS)", "color": "#93C5FD", "size": 14}],
+          "alignment": "center",
+          "vertical_center": true
+        },
+        {
+          "type": "shape",
+          "shape_type": "rounded_rectangle",
+          "left": 8746000,
+          "top": 4600000,
+          "width": 2200000,
+          "height": 900000,
+          "fill": "#1E3A5F",
+          "content": [{"text": "54K\n", "bold": true, "color": "#FFFFFF", "size": 32}, {"text": "CrewAI", "color": "#93C5FD", "size": 14}],
+          "alignment": "center",
+          "vertical_center": true
+        },
+        {
+          "type": "shape",
+          "shape_type": "rounded_rectangle",
+          "left": 2496000,
+          "top": 5700000,
+          "width": 2200000,
+          "height": 900000,
+          "fill": "#1E3A5F",
+          "content": [{"text": "36K\n", "bold": true, "color": "#FFFFFF", "size": 32}, {"text": "LangGraph", "color": "#93C5FD", "size": 14}],
+          "alignment": "center",
+          "vertical_center": true
+        },
+        {
+          "type": "shape",
+          "shape_type": "rounded_rectangle",
+          "left": 4996000,
+          "top": 5700000,
+          "width": 2200000,
+          "height": 900000,
+          "fill": "#1E3A5F",
+          "content": [{"text": "27K\n", "bold": true, "color": "#FFFFFF", "size": 32}, {"text": "OpenAI Agents", "color": "#93C5FD", "size": 14}],
+          "alignment": "center",
+          "vertical_center": true
+        },
+        {
+          "type": "shape",
+          "shape_type": "rounded_rectangle",
+          "left": 7496000,
+          "top": 5700000,
+          "width": 2200000,
+          "height": 900000,
+          "fill": "#1E3A5F",
+          "content": [{"text": "24K\n", "bold": true, "color": "#FFFFFF", "size": 32}, {"text": "12-Factor Agents", "color": "#93C5FD", "size": 14}],
+          "alignment": "center",
+          "vertical_center": true
+        }
+      ]
+    },
+    {
+      "layout": "table",
+      "title": "六大框架核心特性对比",
+      "description": "从架构范式、定位、核心抽象和适用场景四个维度进行对比",
+      "table_data": {
+        "headers": ["框架", "Stars", "架构范式", "核心抽象", "适用场景"],
+        "rows": [
+          ["LangGraph", "35.9K", "图状态机", "Node + Edge + State", "复杂长时工作流"],
+          ["AutoGen", "59.3K", "对话编排", "Agent + Chat + Group", "多智能体对话协作"],
+          ["CrewAI", "54.5K", "角色编排", "Crew + Agent + Task", "业务自动化流程"],
+          ["MetaGPT", "69.1K", "SOP 模拟", "Role + Action + Environment", "软件工程自动化"],
+          ["OpenAI Agents", "27.5K", "轻量编排", "Agent + Handoff + Guardrail", "快速原型开发"],
+          ["12-Factor", "23.6K", "设计原则", "Context + Memory + Tool", "生产级最佳实践"]
+        ]
+      }
+    },
+    {
+      "layout": "title_content",
+      "title": "LangGraph：图状态机编排",
+      "content": "LangGraph 是 LangChain 生态的低级编排框架，灵感来自 Google Pregel 和 Apache Beam。它将 Agent 工作流建模为有向图，节点代表计算步骤，边代表状态转移。\n\n核心特性：\n• 持久化执行 — Agent 在故障后可精确恢复\n• 人在回路 — 可在任意节点插入人工审核\n• 全面记忆 — 短期工作记忆 + 长期持久记忆\n• 循环支持 — 原生支持循环、分支、子图\n• 生产部署 — 与 LangSmith 深度集成，可观测、可评估"
+    },
+    {
+      "layout": "title_content",
+      "title": "AutoGen：对话驱动的多智能体",
+      "content": "微软研究院出品的 AutoGen 开创了对话式多智能体编排模式。Agent 通过自然语言消息相互通信，可自主或与人协作完成任务。\n\n架构分层：\n• Core API — 消息传递、事件驱动 Agent、分布式运行时\n• AgentChat API — 高级封装，支持双 Agent 对话、群聊\n• Extensions API — LLM 客户端、代码执行、MCP 工具集成\n\n注意：AutoGen 已进入维护模式，微软推荐新项目使用 Microsoft Agent Framework (MAF)。"
+    },
+    {
+      "layout": "title_content",
+      "title": "CrewAI：角色驱动的 Crew 编排",
+      "content": "CrewAI 是 Python 原生框架，主打「Crew（团队）+ Flow（流程）」双模式。Crew 负责自主协作，Flow 负责精确控制。\n\n核心概念：\n• Agent — 有角色(role)、目标(goal)、背景故事(backstory)的智能体\n• Task — 带有期望输出格式的任务定义\n• Crew — 将 Agent 和 Task 组合成团队，支持顺序/层级/并行执行\n• Flow — 事件驱动工作流，支持条件分支、状态管理、路由\n• 原生支持 MCP / A2A 协议\n\n适合需要平衡「自主协作」与「精确控制」的生产场景。"
+    },
+    {
+      "layout": "title_content",
+      "title": "MetaGPT：软件公司模拟",
+      "content": "MetaGPT 的核心哲学是 Code = SOP(Team)。它模拟一家完整的软件公司，将 SOP（标准作业流程）物化为多智能体协作。\n\n内部角色：\n• Product Manager — 产出用户故事、竞品分析、需求文档\n• Architect — 设计数据结构、API 接口、系统架构\n• Project Manager — 任务分解、进度管理\n• Engineer — 代码实现\n• QA Engineer — 测试验证\n\n输入一行自然语言需求，输出完整软件项目（含代码、文档、测试）。已被 ICLR 2025 接收为 Oral（top 1.8%）。"
+    },
+    {
+      "layout": "title_content",
+      "title": "OpenAI Agents：轻量原生框架",
+      "content": "OpenAI 官方推出的轻量级多智能体框架，主打简洁和原生集成。\n\n核心设计：\n• Agent — 极简定义，支持 system prompt + tools + handoffs\n• Handoff — Agent 之间可无缝交接任务\n• Guardrails — 输入/输出校验，确保质量可控\n• Tracing — 与 OpenAI 平台深度集成，可追溯每一步\n• 支持同步、异步、流式三种调用模式\n\n优势：代码极简、与 OpenAI API 零摩擦、上手门槛最低。适合快速验证多智能体概念。"
+    },
+    {
+      "layout": "title_content",
+      "title": "12-Factor Agents：生产级设计原则",
+      "content": "12-Factor Agents 不是框架，而是一套构建生产级 LLM 软件的设计原则，类比云原生 12-Factor App。\n\n核心原则：\n• 上下文窗口是栈 — 像管理调用栈一样管理上下文\n• 确定性基础设施 — 关键路径必须可控、可预测\n• 显式记忆 — 区分短期记忆与长期持久化记忆\n• 工具即 API — 工具调用应像 HTTP API 一样设计\n• 人在回路是特性 — 将人工审核作为一等公民\n• 可观测性优先 — 每个决策都应有迹可循\n\n适用所有框架，作为架构评审的 check list。"
+    },
+    {
+      "layout": "chart",
+      "title": "框架 GitHub Stars 对比",
+      "description": "各框架在 GitHub 上的受欢迎程度（Stars 数量）",
+      "chart_data": {
+        "type": "bar",
+        "categories": ["LangGraph", "AutoGen", "CrewAI", "MetaGPT", "OpenAI Agents", "12-Factor"],
+        "values": [35943, 59316, 54494, 69083, 27483, 23637],
+        "series_name": "Stars"
+      }
+    },
+    {
+      "layout": "process",
+      "title": "选型建议",
+      "process_data": {
+        "steps": [
+          {"title": "复杂状态机 → LangGraph"},
+          {"title": "多 Agent 对话 → AutoGen"},
+          {"title": "业务自动化 → CrewAI"},
+          {"title": "软件生成 → MetaGPT"},
+          {"title": "快速原型 → OpenAI Agents"},
+          {"title": "生产规范 → 12-Factor"}
+        ]
+      }
+    },
+    {
+      "layout": "title_content",
+      "title": "趋势与展望",
+      "content": "• 融合趋势：框架边界模糊化，LangGraph 推 Deep Agents，CrewAI 推 Flows\n• 协议标准化：MCP（Model Context Protocol）和 A2A（Agent-to-Agent）成为互操作标准\n• 从原型到生产：社区关注点从「能跑」转向「可观测、可评估、可回滚」\n• 人机协同：Human-in-the-loop 从附加功能变成架构核心\n• 记忆增强：短期记忆（RAG）+ 长期记忆（向量库）+ 工作记忆（状态机）三层架构趋于统一"
+    },
+    {
+      "layout": "closing",
+      "title": "感谢观看",
+      "subtitle": "数据来源：GitHub · 生成时间：2026-06-28"
+    }
+  ]
+}

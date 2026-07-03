@@ -1,0 +1,99 @@
+{
+  "title": "图表与动画演示",
+  "slides": [
+    {
+      "layout": "cover",
+      "title": "图表与动画演示",
+      "subtitle": "7种图表类型 + 8种动画效果",
+      "date": "2026年6月"
+    },
+    {
+      "layout": "chart",
+      "title": "柱状图 (Column)",
+      "description": "年度营收对比",
+      "chart_data": {
+        "type": "column",
+        "categories": ["2022", "2023", "2024", "2025", "2026E"],
+        "values": [1200, 1850, 2800, 4100, 5950],
+        "series_name": "营收（万元）"
+      }
+    },
+    {
+      "layout": "chart",
+      "title": "折线图 (Line)",
+      "description": "用户增长趋势",
+      "chart_data": {
+        "type": "line",
+        "categories": ["1月", "2月", "3月", "4月", "5月", "6月"],
+        "values": [120, 180, 250, 320, 410, 580],
+        "series_name": "月活用户（万）"
+      }
+    },
+    {
+      "layout": "chart",
+      "title": "饼图 (Pie)",
+      "description": "收入来源分布",
+      "chart_data": {
+        "type": "pie",
+        "categories": ["SaaS", "定制", "咨询", "培训"],
+        "values": [45, 30, 15, 10],
+        "series_name": "占比（%）"
+      }
+    },
+    {
+      "layout": "chart",
+      "title": "面积图 (Area)",
+      "description": "累计注册用户",
+      "chart_data": {
+        "type": "area",
+        "categories": ["Q1", "Q2", "Q3", "Q4"],
+        "values": [500, 1200, 2600, 4500],
+        "series_name": "累计用户（万）"
+      }
+    },
+    {
+      "layout": "chart",
+      "title": "条形图 (Bar)",
+      "description": "各部门满意度评分",
+      "chart_data": {
+        "type": "bar",
+        "categories": ["产品", "技术", "销售", "客服", "运营"],
+        "values": [92, 88, 85, 90, 87],
+        "series_name": "满意度"
+      }
+    },
+    {
+      "layout": "chart",
+      "title": "环形图 (Doughnut)",
+      "description": "预算分配",
+      "chart_data": {
+        "type": "doughnut",
+        "categories": ["研发", "市场", "人力", "行政"],
+        "values": [40, 25, 20, 15],
+        "series_name": "预算占比（%）"
+      }
+    },
+    {
+      "layout": "chart",
+      "title": "雷达图 (Radar)",
+      "description": "产品能力评估",
+      "chart_data": {
+        "type": "radar",
+        "categories": ["性能", "易用性", "稳定性", "扩展性", "安全性"],
+        "values": [85, 92, 88, 75, 90],
+        "series_name": "评分"
+      }
+    },
+    {
+      "layout": "data_highlight",
+      "title": "核心成果",
+      "big_number": "7种",
+      "label": "图表类型全部支持 + 8种动画效果"
+    },
+    {
+      "layout": "closing",
+      "title": "Thank You",
+      "subtitle": "支持 fade / fly_in / wipe / zoom / bounce / appear / swivel / float 动画"
+    }
+  ]
+}

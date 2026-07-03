@@ -1,0 +1,104 @@
+{
+  "title": "stress_mixed",
+  "slides": [
+    {
+      "layout": "cover",
+      "title": "🚀 Mixed Extreme 压力测试"
+    },
+    {
+      "layout": "title_content",
+      "title": "多语言混排 Multilingual 🌍",
+      "content": [
+        "🇨🇳 中文：系统架构设计遵循高可用原则",
+        "🇺🇸 English: The system architecture follows high-availability principles",
+        "🇯🇵 日本語：システムアーキテクチャは高可用性原則に従う",
+        "🇰🇷 한국어: 시스템 아키텍처는 고가용성 원칙을 따릅니다",
+        "🇫🇷 Français: L'architecture du système suit les principes de haute disponibilité"
+      ]
+    },
+    {
+      "layout": "title_content",
+      "title": "Emoji 与特殊符号 😀🔥📊",
+      "content": [
+        "🎯 目标达成率：97.5%",
+        "🔥 热门功能：实时协作、AI助手、暗色模式",
+        "📊 数据表现：DAU 240万，MAU 1800万",
+        "⚡ 性能指标：API P99 < 150ms",
+        "🔒 安全等级：等保三级 + ISO27001",
+        "💰 财务健康：现金流充裕， runway 36个月",
+        "🌱 增长飞轮：获客成本 ↓40%，LTV ↑60%"
+      ]
+    },
+    {
+      "layout": "title_content",
+      "title": "代码块展示",
+      "content": [
+        "[python]",
+        "",
+        "def calculate_metrics(data):",
+        "    \"\"\"计算核心业务指标\"\"\"",
+        "    return {",
+        "        \"revenue\": sum(d[\"amount\"] for d in data),",
+        "        \"users\": len(set(d[\"user_id\"] for d in data)),",
+        "        \"conversion\": sum(d[\"converted\"] for d in data) / len(data)",
+        "    }",
+        "[/code]"
+      ]
+    },
+    {
+      "layout": "title_content",
+      "title": "数学公式与符号",
+      "content": [
+        "α (Alpha) = 0.05 显著性水平",
+        "β (Beta) 系数 = 1.234",
+        "σ² = 15.6 方差",
+        "Σ(xi - μ)² / N = 标准差",
+        "R² = 0.987 决定系数",
+        "H₀: μ₁ = μ₂ 原假设",
+        "∴ 结论：拒绝原假设"
+      ]
+    },
+    {
+      "layout": "title_content",
+      "title": "超长URL与链接",
+      "content": [
+        "官网：https://www.example.com/products/enterprise-solution",
+        "API文档：https://developer.example.com/api/v2/endpoints/authentication/oauth2",
+        "监控面板：https://monitoring.example.com/d/abc123/production-overview"
+      ]
+    },
+    {
+      "layout": "title_content",
+      "title": "嵌套列表",
+      "content": [
+        "一级项目 A",
+        "indent:1|二级项目 A-1",
+        "indent:2|三级项目 A-1-1：详细说明文本",
+        "indent:2|三级项目 A-1-2：详细说明文本",
+        "indent:1|二级项目 A-2",
+        "一级项目 B",
+        "indent:1|二级项目 B-1",
+        "indent:2|三级项目 B-1-1",
+        "indent:3|四级项目 B-1-1-1：极限嵌套测试",
+        "indent:3|四级项目 B-1-1-2：极限嵌套测试"
+      ]
+    },
+    {
+      "layout": "quote",
+      "title": "混合引用",
+      "quote": "🎓 \"The only way to do great work is to love what you do.\"",
+      "author": "Steve Jobs"
+    },
+    {
+      "layout": "quote",
+      "quote": "🀄 「天道酬勤，地道酬善，商道酬信，业道酬精」",
+      "author": "中华古训",
+      "title": "混合引用"
+    },
+    {
+      "layout": "closing",
+      "title": "谢谢",
+      "subtitle": "Q & A"
+    }
+  ]
+}

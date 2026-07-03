@@ -1,0 +1,66 @@
+{
+  "name": "timeline_h",
+  "description": "横向时间轴布局：水平排列的里程碑节点",
+  "shapes": [
+    {
+      "role": "title",
+      "type": "textbox",
+      "region": {"left": "6%", "top": "6.7%", "width": "86%", "height": "10.7%"},
+      "style": "heading-1",
+      "content_source": "title",
+      "adaptive": {"strategy": "shrink", "min_size": 28}
+    },
+    {
+      "role": "accent_line",
+      "type": "shape",
+      "shape_type": "rectangle",
+      "attach": {"to": "title", "edge": "bottom", "offset": "0%"},
+      "region": {"left": "6%", "width": "11.3%", "height": "0.7%"},
+      "style": "accent-line"
+    },
+    {
+      "role": "timeline_bar",
+      "type": "shape",
+      "shape_type": "rectangle",
+      "attach": {"to": "accent_line", "edge": "bottom", "offset": "12%"},
+      "region": {"left": "10%", "width": "80%", "height": "0.5%"},
+      "style": {"fill": "#E5E7EB"}
+    },
+    {
+      "role": "node_1",
+      "type": "textbox",
+      "attach": {"to": "timeline_bar", "edge": "bottom", "offset": "2%"},
+      "region": {"left": "8%", "width": "16%", "height": "55%"},
+      "style": {"font_size": 16, "color": "#1F2937", "font_name": "Microsoft YaHei", "alignment": "center"},
+      "content_source": "node_1",
+      "adaptive": {"strategy": "shrink", "max_size": 20, "min_size": 12}
+    },
+    {
+      "role": "node_2",
+      "type": "textbox",
+      "attach": {"to": "timeline_bar", "edge": "bottom", "offset": "2%"},
+      "region": {"left": "28%", "width": "16%", "height": "55%"},
+      "style": {"font_size": 16, "color": "#1F2937", "font_name": "Microsoft YaHei", "alignment": "center"},
+      "content_source": "node_2",
+      "adaptive": {"strategy": "shrink", "max_size": 20, "min_size": 12}
+    },
+    {
+      "role": "node_3",
+      "type": "textbox",
+      "attach": {"to": "timeline_bar", "edge": "bottom", "offset": "2%"},
+      "region": {"left": "48%", "width": "16%", "height": "55%"},
+      "style": {"font_size": 16, "color": "#1F2937", "font_name": "Microsoft YaHei", "alignment": "center"},
+      "content_source": "node_3",
+      "adaptive": {"strategy": "shrink", "max_size": 20, "min_size": 12}
+    },
+    {
+      "role": "node_4",
+      "type": "textbox",
+      "attach": {"to": "timeline_bar", "edge": "bottom", "offset": "2%"},
+      "region": {"left": "68%", "width": "16%", "height": "55%"},
+      "style": {"font_size": 16, "color": "#1F2937", "font_name": "Microsoft YaHei", "alignment": "center"},
+      "content_source": "node_4",
+      "adaptive": {"strategy": "shrink", "max_size": 20, "min_size": 12}
+    }
+  ]
+}

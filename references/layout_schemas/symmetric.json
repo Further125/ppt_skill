@@ -1,0 +1,65 @@
+{
+  "name": "symmetric",
+  "description": "对称双栏布局：50/50 等宽对比",
+  "shapes": [
+    {
+      "role": "title",
+      "type": "textbox",
+      "region": {"left": "6%", "top": "6.7%", "width": "86%", "height": "10.7%"},
+      "style": "heading-1",
+      "content_source": "title",
+      "adaptive": {"strategy": "shrink", "min_size": 28}
+    },
+    {
+      "role": "accent_line",
+      "type": "shape",
+      "shape_type": "rectangle",
+      "attach": {"to": "title", "edge": "bottom", "offset": "0%"},
+      "region": {"left": "6%", "width": "11.3%", "height": "0.7%"},
+      "style": "accent-line"
+    },
+    {
+      "role": "divider",
+      "type": "shape",
+      "shape_type": "rectangle",
+      "region": {"left": "49.5%", "top": "22%", "width": "0.2%", "height": "70%"},
+      "style": {"fill": "#E5E7EB"}
+    },
+    {
+      "role": "left_label",
+      "type": "textbox",
+      "attach": {"to": "accent_line", "edge": "bottom", "offset": "2%"},
+      "region": {"left": "6%", "width": "40%", "height": "6%"},
+      "style": {"font_size": 20, "bold": true, "color": "#3B82F6", "font_name": "Microsoft YaHei", "alignment": "center"},
+      "content_source": "left_label"
+    },
+    {
+      "role": "right_label",
+      "type": "textbox",
+      "attach": {"to": "accent_line", "edge": "bottom", "offset": "2%"},
+      "region": {"left": "54%", "width": "40%", "height": "6%"},
+      "style": {"font_size": 20, "bold": true, "color": "#EF4444", "font_name": "Microsoft YaHei", "alignment": "center"},
+      "content_source": "right_label"
+    },
+    {
+      "role": "left_content",
+      "type": "textbox",
+      "attach": {"to": "left_label", "edge": "bottom", "offset": "2%"},
+      "region": {"left": "6%", "width": "40%", "height": "60%"},
+      "style": "body",
+      "content_source": "left_content",
+      "uniform_group": "body",
+      "adaptive": {"strategy": "shrink", "max_size": 32, "min_size": 12}
+    },
+    {
+      "role": "right_content",
+      "type": "textbox",
+      "attach": {"to": "right_label", "edge": "bottom", "offset": "2%"},
+      "region": {"left": "54%", "width": "40%", "height": "60%"},
+      "style": {"font_size": 16, "color": "#4B5563", "font_name": "Microsoft YaHei"},
+      "content_source": "right_content",
+      "uniform_group": "body",
+      "adaptive": {"strategy": "shrink", "max_size": 32, "min_size": 12}
+    }
+  ]
+}

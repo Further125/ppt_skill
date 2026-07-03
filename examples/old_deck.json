@@ -1,0 +1,8 @@
+{
+  "slides": [
+    {"layout": "cover", "title": "项目报告", "subtitle": "v1.0", "date": "2026-06-01"},
+    {"layout": "title_content", "title": "市场分析", "content": ["市场规模100亿", "增长率20%", "竞争激烈"]},
+    {"layout": "chart", "title": "营收趋势", "description": "", "chart_data": {"type": "column", "categories": ["Q1","Q2","Q3"], "values": [100,150,200], "series_name": "营收"}},
+    {"layout": "closing", "title": "Thank You", "subtitle": "Q&A"}
+  ]
+}

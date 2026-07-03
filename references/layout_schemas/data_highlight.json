@@ -1,0 +1,39 @@
+{
+  "name": "data_highlight",
+  "description": "大数字强调页",
+  "shapes": [
+    {
+      "role": "title",
+      "type": "textbox",
+      "region": {"left": "5%", "top": "5%", "width": "90%", "height": "12%"},
+      "style": "heading-1",
+      "content_source": "title",
+      "adaptive": {"strategy": "shrink", "min_size": 28}
+    },
+    {
+      "role": "accent_line",
+      "type": "shape",
+      "shape_type": "rectangle",
+      "attach": {"to": "title", "edge": "bottom", "offset": "1%"},
+      "region": {"left": "5%", "width": "15%", "height": "0.4%"},
+      "style": "accent-line"
+    },
+    {
+      "role": "big_number",
+      "type": "textbox",
+      "region": {"left": "5%", "top": "30%", "width": "90%", "height": "30%"},
+      "style": "big-number",
+      "content_source": "big_number",
+      "adaptive": {"strategy": "shrink", "min_size": 36}
+    },
+    {
+      "role": "label",
+      "type": "textbox",
+      "attach": {"to": "big_number", "edge": "bottom", "offset": "2%"},
+      "region": {"left": "5%", "width": "90%", "height": "12%"},
+      "style": "label",
+      "content_source": "label",
+      "adaptive": {"strategy": "shrink", "min_size": 14}
+    }
+  ]
+}

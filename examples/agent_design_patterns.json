@@ -1,0 +1,106 @@
+{
+  "title": "Agent Design Patterns",
+  "slides": [
+    {
+      "layout": "cover",
+      "title": "Agent Design Patterns",
+      "subtitle": "Building Blocks of Intelligent Systems",
+      "date": "2026"
+    },
+    {
+      "layout": "toc",
+      "title": "目录",
+      "items": [
+        "ReAct 模式",
+        "反射模式",
+        "工具使用模式",
+        "规划模式",
+        "多Agent协作",
+        "记忆架构",
+        "协议标准"
+      ]
+    },
+    {
+      "layout": "title_content",
+      "title": "ReAct 模式",
+      "content": [
+        "Reasoning + Acting 交替循环",
+        "思考(Thought) → 行动(Action) → 观察(Observation)",
+        "优势：将推理过程显式化，提高可解释性",
+        "应用：问答系统、任务执行、交互式Agent"
+      ]
+    },
+    {
+      "layout": "title_content",
+      "title": "反射模式 (Reflection)",
+      "content": [
+        "Self-Refine：生成 → 评估 → 改进",
+        " critics + generator 双Agent架构",
+        "优势：无需外部反馈即可自我提升",
+        "应用：代码生成、写作、翻译质量提升"
+      ]
+    },
+    {
+      "layout": "title_content",
+      "title": "工具使用模式 (Tool Use)",
+      "content": [
+        "Function Calling：LLM调用预定义函数",
+        "工具注册：API、数据库、搜索引擎",
+        "动态工具发现：运行时加载新工具",
+        "应用：数据分析、实时信息获取、代码执行"
+      ]
+    },
+    {
+      "layout": "title_content",
+      "title": "规划模式 (Planning)",
+      "content": [
+        "任务分解：复杂任务 → 子任务列表",
+        "层次化规划：高层目标 → 中层策略 → 底层动作",
+        "动态重规划：根据执行反馈调整计划",
+        "应用：项目管理、旅行规划、研究调查"
+      ]
+    },
+    {
+      "layout": "title_content",
+      "title": "多Agent协作模式",
+      "content": [
+        "角色扮演：每个Agent有明确角色和技能",
+        "层级协作：Manager分配任务，Worker执行",
+        "协商机制：Agent之间讨论达成共识",
+        "竞争机制：多个Agent生成方案，择优选取"
+      ]
+    },
+    {
+      "layout": "title_content",
+      "title": "记忆架构",
+      "content": [
+        "短期记忆：对话上下文窗口",
+        "长期记忆：向量数据库存储",
+        " episodic memory：具体事件记忆",
+        "semantic memory：抽象知识记忆",
+        "procedural memory：操作技能记忆"
+      ]
+    },
+    {
+      "layout": "title_content",
+      "title": "协议标准",
+      "content": [
+        "A2A (Agent-to-Agent)：Google提出的Agent间通信",
+        "MCP (Model Context Protocol)：Anthropic上下文协议",
+        "BPAX：业务流程到Agent工作流JSON标准",
+        "标准化意义：互操作性、生态繁荣、降低门槛"
+      ]
+    },
+    {
+      "layout": "data_highlight",
+      "title": "关键数据",
+      "big_number": "5+",
+      "label": "主流架构模式已广泛应用于生产环境"
+    },
+    {
+      "layout": "closing",
+      "title": "Design Patterns Matter",
+      "subtitle": "模式是构建可靠Agent系统的基石"
+    }
+  ]
+}

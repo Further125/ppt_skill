@@ -1,0 +1,47 @@
+{
+  "name": "two_column",
+  "description": "双栏对比页",
+  "shapes": [
+    {
+      "role": "title",
+      "type": "textbox",
+      "region": {"left": "6%", "top": "6.7%", "width": "86%", "height": "10.7%"},
+      "style": "heading-1",
+      "content_source": "title",
+      "adaptive": {"strategy": "shrink", "min_size": 28}
+    },
+    {
+      "role": "accent_line",
+      "type": "shape",
+      "shape_type": "rectangle",
+      "attach": {"to": "title", "edge": "bottom", "offset": "0%"},
+      "region": {"left": "6%", "width": "11.3%", "height": "0.7%"},
+      "style": "accent-line"
+    },
+    {
+      "role": "divider",
+      "type": "shape",
+      "shape_type": "rectangle",
+      "region": {"left": "49.5%", "top": "22%", "width": "0.2%", "height": "70%"},
+      "style": {"fill": "#F3F4F6"}
+    },
+    {
+      "role": "left_content",
+      "type": "textbox",
+      "attach": {"to": "accent_line", "edge": "bottom", "offset": "2%"},
+      "region": {"left": "6%", "width": "40%", "height": "70%"},
+      "style": "body",
+      "content_source": "left_content",
+      "adaptive": {"strategy": "shrink", "max_size": 40, "min_size": 14}
+    },
+    {
+      "role": "right_content",
+      "type": "textbox",
+      "attach": {"to": "accent_line", "edge": "bottom", "offset": "2%"},
+      "region": {"left": "54%", "width": "40%", "height": "70%"},
+      "style": "body",
+      "content_source": "right_content",
+      "adaptive": {"strategy": "shrink", "min_size": 14}
+    }
+  ]
+}

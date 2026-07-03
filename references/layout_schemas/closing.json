@@ -1,0 +1,30 @@
+{
+  "name": "closing",
+  "description": "结尾感谢页",
+  "shapes": [
+    {
+      "role": "bg",
+      "type": "shape",
+      "shape_type": "rectangle",
+      "region": "full",
+      "style": {"fill": "#0B1F3A"}
+    },
+    {
+      "role": "title",
+      "type": "textbox",
+      "region": {"left": "5%", "top": "35%", "width": "90%", "height": "20%"},
+      "style": {"font_size": 64, "bold": true, "color": "#FFFFFF", "font_name": "Microsoft YaHei", "alignment": "center"},
+      "content_source": "title",
+      "adaptive": {"strategy": "shrink", "min_size": 36}
+    },
+    {
+      "role": "subtitle",
+      "type": "textbox",
+      "attach": {"to": "title", "edge": "bottom", "offset": "2%"},
+      "region": {"left": "5%", "width": "90%", "height": "10%"},
+      "style": {"font_size": 28, "bold": false, "color": "#AABBCC", "font_name": "Microsoft YaHei", "alignment": "center"},
+      "content_source": "subtitle",
+      "adaptive": {"strategy": "shrink", "min_size": 16}
+    }
+  ]
+}

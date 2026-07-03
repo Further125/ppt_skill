@@ -1,0 +1,21 @@
+{
+  "title": "Accent Line Demo",
+  "slides": [
+    {
+      "layout": "title_content",
+      "title": "有修饰线（默认）",
+      "content": "这是默认情况，保留蓝色修饰线"
+    },
+    {
+      "layout": "title_content",
+      "title": "无修饰线",
+      "accent_line": false,
+      "content": "accent_line 设为 false，蓝色修饰线被移除"
+    },
+    {
+      "layout": "title_content",
+      "title": "再次有修饰线",
+      "content": "恢复默认"
+    }
+  ]
+}

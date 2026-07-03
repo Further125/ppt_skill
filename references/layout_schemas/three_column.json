@@ -1,0 +1,52 @@
+{
+  "name": "three_column",
+  "description": "三栏等宽并列布局",
+  "shapes": [
+    {
+      "role": "title",
+      "type": "textbox",
+      "region": {"left": "6%", "top": "6.7%", "width": "86%", "height": "10.7%"},
+      "style": "heading-1",
+      "content_source": "title",
+      "adaptive": {"strategy": "shrink", "min_size": 28}
+    },
+    {
+      "role": "accent_line",
+      "type": "shape",
+      "shape_type": "rectangle",
+      "attach": {"to": "title", "edge": "bottom", "offset": "0%"},
+      "region": {"left": "6%", "width": "11.3%", "height": "0.7%"},
+      "style": "accent-line"
+    },
+    {
+      "role": "col_1",
+      "type": "textbox",
+      "attach": {"to": "accent_line", "edge": "bottom", "offset": "3%"},
+      "region": {"left": "6%", "width": "26%", "height": "73%"},
+      "style": "body",
+      "content_source": "col_1",
+      "adaptive": {"strategy": "shrink", "max_size": 36, "min_size": 14},
+      "uniform_group": "body"
+    },
+    {
+      "role": "col_2",
+      "type": "textbox",
+      "attach": {"to": "accent_line", "edge": "bottom", "offset": "3%"},
+      "region": {"left": "37%", "width": "26%", "height": "73%"},
+      "style": "body",
+      "content_source": "col_2",
+      "adaptive": {"strategy": "shrink", "max_size": 36, "min_size": 14},
+      "uniform_group": "body"
+    },
+    {
+      "role": "col_3",
+      "type": "textbox",
+      "attach": {"to": "accent_line", "edge": "bottom", "offset": "3%"},
+      "region": {"left": "68%", "width": "26%", "height": "73%"},
+      "style": "body",
+      "content_source": "col_3",
+      "adaptive": {"strategy": "shrink", "max_size": 36, "min_size": 14},
+      "uniform_group": "body"
+    }
+  ]
+}

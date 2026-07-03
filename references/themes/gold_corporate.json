@@ -1,0 +1,11 @@
+{
+  "name": "Gold Corporate",
+  "primary": "#C9A96E",
+  "secondary": "#0F2B5B",
+  "accent": ["#C9A96E", "#0F2B5B", "#D4AF37", "#B8860B", "#CD853F", "#DAA520"],
+  "background": "#FFFFFF",
+  "text": "#1A1A2E",
+  "light_bg": "#F8F6F3",
+  "font_title": "Microsoft YaHei",
+  "font_body": "Microsoft YaHei"
+}

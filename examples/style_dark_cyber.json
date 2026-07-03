@@ -1,0 +1,126 @@
+{
+  "title": "Agent Architecture Deep Dive",
+  "theme": {
+    "primary": "#0EA5E9",
+    "accent": "#A855F7",
+    "bg": "#0F172A",
+    "text": "#E2E8F0",
+    "light_text": "#94A3B8"
+  },
+  "slides": [
+    {
+      "layout": "cover",
+      "title": "Agent Architecture Deep Dive",
+      "subtitle": "Inside the Multi-Agent Engine",
+      "date": "2026"
+    },
+    {
+      "layout": "title_content",
+      "title": "The Agent Loop",
+      "content": [
+        "OBSERVE → Perceive environment state",
+        "REASON → LLM generates thought process",
+        "ACT → Execute tool or return response",
+        "LEARN → Update memory from feedback"
+      ]
+    },
+    {
+      "layout": "chart",
+      "title": "Framework Popularity",
+      "description": "GitHub Stars growth trajectory",
+      "chart_data": {
+        "categories": [
+          "MetaGPT",
+          "AutoGen",
+          "CrewAI",
+          "LangGraph",
+          "OpenAI",
+          "12-Factor"
+        ],
+        "values": [
+          69000,
+          38000,
+          26000,
+          22000,
+          27000,
+          24000
+        ],
+        "series_name": "Stars",
+        "type": "bar"
+      }
+    },
+    {
+      "layout": "image_content",
+      "title": "Architecture Diagram",
+      "content": [
+        "Orchestrator: Central controller dispatches tasks",
+        "Worker Pool: Specialized agents execute sub-tasks",
+        "Memory Store: Shared context + episodic memory",
+        "Tool Registry: External APIs + custom functions",
+        "State Graph: LangGraph manages execution flow"
+      ],
+      "image_path": "auto_img_slide_004.png"
+    },
+    {
+      "layout": "table",
+      "title": "Performance Benchmarks",
+      "description": "Latency vs accuracy trade-offs",
+      "table_data": {
+        "headers": [
+          "Framework",
+          "Latency",
+          "Accuracy",
+          "Scalability"
+        ],
+        "rows": [
+          [
+            "MetaGPT",
+            "High",
+            "92%",
+            "Medium"
+          ],
+          [
+            "AutoGen",
+            "Medium",
+            "88%",
+            "High"
+          ],
+          [
+            "CrewAI",
+            "Low",
+            "85%",
+            "Medium"
+          ],
+          [
+            "LangGraph",
+            "Medium",
+            "90%",
+            "High"
+          ],
+          [
+            "OpenAI",
+            "Low",
+            "86%",
+            "Low"
+          ]
+        ]
+      }
+    },
+    {
+      "layout": "data_highlight",
+      "title": "Production Readiness",
+      "big_number": "3x",
+      "label": "Faster iteration with agent frameworks vs hand-built"
+    },
+    {
+      "layout": "quote",
+      "quote": "Agents are not the future. They are the present, and they are already eating software.",
+      "author": "— swyx, 2025"
+    },
+    {
+      "layout": "closing",
+      "title": "Build the Future",
+      "subtitle": "Agents are the new abstraction layer."
+    }
+  ]
+}

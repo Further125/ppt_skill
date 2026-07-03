@@ -1,0 +1,1 @@
+{"title": "对比测试", "slides": [{"layout": "title_content", "title": "核心架构模式", "content": ["反射(Reflection)：Agent自我审查并改进输出", "工具使用(Tool Use)：调用外部API、搜索、代码执行", "规划(Planning)：将复杂任务分解为子任务", "多Agent协作(Multi-Agent)：多个专家Agent协同工作"]}]}

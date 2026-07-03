@@ -1,0 +1,106 @@
+{
+  "title": "minimal_brand",
+  "slides": [
+    {
+      "layout": "title_content",
+      "title": "关于我们",
+      "content": [
+        "专注于极简主义设计"
+      ]
+    },
+    {
+      "layout": "table",
+      "title": "核心能力",
+      "table_data": {
+        "headers": [
+          "服务",
+          "案例数",
+          "满意度"
+        ],
+        "rows": [
+          [
+            "品牌视觉",
+            "85",
+            "98%"
+          ],
+          [
+            "产品包装",
+            "120",
+            "96%"
+          ],
+          [
+            "空间设计",
+            "45",
+            "97%"
+          ],
+          [
+            "数字体验",
+            "200",
+            "95%"
+          ]
+        ]
+      }
+    },
+    {
+      "layout": "quote",
+      "quote": "好的设计是显而易见的，伟大的设计是透明的。",
+      "author": "Joe Sparano"
+    },
+    {
+      "layout": "wordcloud",
+      "title": "年度关键词",
+      "words": [
+        {
+          "text": "极简",
+          "weight": 100
+        },
+        {
+          "text": "留白",
+          "weight": 85
+        },
+        {
+          "text": "克制",
+          "weight": 75
+        },
+        {
+          "text": "秩序",
+          "weight": 70
+        },
+        {
+          "text": "呼吸感",
+          "weight": 65
+        },
+        {
+          "text": "材质",
+          "weight": 60
+        },
+        {
+          "text": "光影",
+          "weight": 55
+        },
+        {
+          "text": "温度",
+          "weight": 50
+        }
+      ]
+    },
+    {
+      "layout": "data_highlight",
+      "title": "年度数据",
+      "big_number": "200+",
+      "label": "服务品牌数量"
+    },
+    {
+      "layout": "title_content",
+      "title": "联系方式",
+      "content": [
+        "官网: www.example.com"
+      ]
+    },
+    {
+      "layout": "closing",
+      "title": "谢谢",
+      "subtitle": "Q & A"
+    }
+  ]
+}

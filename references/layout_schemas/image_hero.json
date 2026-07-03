@@ -1,0 +1,35 @@
+{
+  "name": "image_hero",
+  "description": "图片英雄区布局：大图铺底 + 文字叠加",
+  "shapes": [
+    {
+      "role": "hero_image",
+      "type": "image",
+      "region": {"left": "0%", "top": "0%", "width": "100%", "height": "100%"},
+      "content_source": "image_path"
+    },
+    {
+      "role": "overlay",
+      "type": "shape",
+      "shape_type": "rectangle",
+      "region": {"left": "0%", "top": "55%", "width": "100%", "height": "45%"},
+      "style": {"fill": "#000000"}
+    },
+    {
+      "role": "title",
+      "type": "textbox",
+      "region": {"left": "6%", "top": "35%", "width": "70%", "height": "18%"},
+      "style": {"font_size": 48, "bold": true, "color": "#FFFFFF", "font_name": "Microsoft YaHei", "alignment": "left"},
+      "content_source": "title",
+      "adaptive": {"strategy": "shrink", "max_size": 64, "min_size": 28}
+    },
+    {
+      "role": "subtitle",
+      "type": "textbox",
+      "attach": {"to": "title", "edge": "bottom", "offset": "2%"},
+      "region": {"left": "6%", "width": "60%", "height": "10%"},
+      "style": {"font_size": 20, "color": "#D1D5DB", "font_name": "Microsoft YaHei", "alignment": "left"},
+      "content_source": "subtitle"
+    }
+  ]
+}

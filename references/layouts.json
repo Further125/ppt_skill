@@ -1,0 +1,69 @@
+{
+  "layouts": {
+    "cover": {
+      "description": "封面页，深蓝背景+标题+副标题+日期",
+      "placeholders": ["title", "subtitle", "date"],
+      "template_slide_name": "cover"
+    },
+    "toc": {
+      "description": "目录页，标题+条目列表",
+      "placeholders": ["title", "items"],
+      "template_slide_name": "toc"
+    },
+    "title_content": {
+      "description": "标题+单栏内容页",
+      "placeholders": ["title", "content"],
+      "template_slide_name": "title_content"
+    },
+    "two_column": {
+      "description": "标题+双栏对比页",
+      "placeholders": ["title", "left_content", "right_content"],
+      "template_slide_name": "two_column"
+    },
+    "chart": {
+      "description": "标题+描述+原生图表页（柱状图/折线图/饼图）",
+      "placeholders": ["title", "description", "chart_data"],
+      "template_slide_name": "chart"
+    },
+    "table": {
+      "description": "标题+描述+原生表格页",
+      "placeholders": ["title", "description", "table_data"],
+      "template_slide_name": "table"
+    },
+    "timeline": {
+      "description": "标题+水平时间轴页",
+      "placeholders": ["title", "timeline_data"],
+      "template_slide_name": "timeline"
+    },
+    "image_content": {
+      "description": "标题+左侧图片+右侧内容",
+      "placeholders": ["title", "image_path", "content"],
+      "template_slide_name": "image_content"
+    },
+    "quote": {
+      "description": "深蓝背景金句/引用页",
+      "placeholders": ["quote", "author"],
+      "template_slide_name": "quote"
+    },
+    "team": {
+      "description": "团队介绍卡片页",
+      "placeholders": ["title", "team_data"],
+      "template_slide_name": "team"
+    },
+    "data_highlight": {
+      "description": "大数字强调页",
+      "placeholders": ["title", "big_number", "label"],
+      "template_slide_name": "data_highlight"
+    },
+    "process": {
+      "description": "流程/步骤页（彩色圆角矩形）",
+      "placeholders": ["title", "process_data"],
+      "template_slide_name": "process"
+    },
+    "closing": {
+      "description": "结尾感谢页",
+      "placeholders": ["title", "subtitle"],
+      "template_slide_name": "closing"
+    }
+  }
+}

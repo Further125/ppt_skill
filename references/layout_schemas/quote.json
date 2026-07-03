@@ -1,0 +1,29 @@
+{
+  "name": "quote",
+  "description": "金句引用页",
+  "shapes": [
+    {
+      "role": "bg",
+      "type": "shape",
+      "shape_type": "rectangle",
+      "region": "full",
+      "style": {"fill": "#0B1F3A"}
+    },
+    {
+      "role": "quote_text",
+      "type": "textbox",
+      "region": {"left": "10%", "top": "30%", "width": "80%", "height": "25%"},
+      "style": {"font_size": 36, "bold": true, "color": "#FFFFFF", "font_name": "Microsoft YaHei", "alignment": "center"},
+      "content_source": "quote",
+      "adaptive": {"strategy": "shrink", "min_size": 20}
+    },
+    {
+      "role": "author",
+      "type": "textbox",
+      "attach": {"to": "quote_text", "edge": "bottom", "offset": "3%"},
+      "region": {"left": "10%", "width": "80%", "height": "8%"},
+      "style": {"font_size": 18, "bold": false, "color": "#AABBCC", "font_name": "Microsoft YaHei", "alignment": "center"},
+      "content_source": "author"
+    }
+  ]
+}

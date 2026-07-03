@@ -1,0 +1,30 @@
+{
+  "name": "quote_constraint",
+  "description": "引用页约束布局",
+  "layout_mode": "constraint",
+  "shapes": [
+    {
+      "role": "quote_mark",
+      "type": "textbox",
+      "region": {"left": "6%", "top": "15%", "width": "15%", "height": "15%"},
+      "style": {"font_size": 72, "bold": true, "color": "#E5E7EB", "font_name": "Microsoft YaHei", "alignment": "left"},
+      "content": "\""
+    },
+    {
+      "role": "quote_text",
+      "type": "textbox",
+      "attach": {"to": "quote_mark", "edge": "bottom", "offset": "0%"},
+      "region": {"left": "10%", "width": "80%", "height": "50%", "min_height": "20%"},
+      "style": {"font_scale": 1.5, "bold": true, "color": "#1F2937", "font_name": "Microsoft YaHei", "alignment": "left"},
+      "content_source": "quote"
+    },
+    {
+      "role": "author",
+      "type": "textbox",
+      "attach": {"to": "quote_text", "edge": "bottom", "offset": "5%"},
+      "region": {"left": "10%", "width": "50%", "height": "10%", "min_height": "8%"},
+      "style": {"font_scale": 1.0, "color": "#6B7280", "font_name": "Microsoft YaHei", "alignment": "right"},
+      "content_source": "author"
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "name": "chart_constraint",
+  "description": "图表页约束布局：标题自动编排 + 图表占位",
+  "layout_mode": "constraint",
+  "shapes": [
+    {
+      "role": "title",
+      "type": "textbox",
+      "region": {"left": "5%", "top": "5%", "width": "90%", "height": "12%"},
+      "style": {"font_scale": 2.2, "bold": true, "color": "#1F2937", "font_name": "Microsoft YaHei"},
+      "content_source": "title"
+    },
+    {
+      "role": "accent_line",
+      "type": "shape",
+      "shape_type": "rectangle",
+      "attach": {"to": "title", "edge": "bottom", "offset": "1%"},
+      "region": {"left": "5%", "width": "12%", "height": "0.7%"},
+      "style": "accent-line"
+    },
+    {
+      "role": "description",
+      "type": "textbox",
+      "attach": {"to": "accent_line", "edge": "bottom", "offset": "2%"},
+      "region": {"left": "5%", "width": "40%", "height": "20%"},
+      "style": {"font_scale": 1.0, "color": "#4B5563", "font_name": "Microsoft YaHei"},
+      "content_source": "description"
+    },
+    {
+      "role": "chart_placeholder",
+      "type": "textbox",
+      "attach": {"to": "accent_line", "edge": "bottom", "offset": "2%"},
+      "region": {"left": "50%", "width": "45%", "height": "68%"},
+      "style": {"font_size": 8, "color": "#FFFFFF", "font_name": "Microsoft YaHei"},
+      "content": "__CHART__"
+    }
+  ]
+}

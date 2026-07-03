@@ -1,0 +1,27 @@
+{
+  "title": "Rich Text Demo",
+  "slides": [
+    {
+      "layout": "title_content",
+      "title": "富文本测试",
+      "content": [
+        {"text": "Rust", "bold": true, "color": "#3B82F6", "size": 24},
+        {"text": " 是主打内存安全的系统级语言，"},
+        {"text": "零成本抽象", "italic": true, "color": "#10B981"},
+        {"text": " 是其核心卖点。"}
+      ]
+    },
+    {
+      "layout": "two_column",
+      "title": "双栏富文本",
+      "left_content": [
+        {"text": "前端：", "bold": true, "color": "#F59E0B"},
+        {"text": "React / Vue / TypeScript"}
+      ],
+      "right_content": [
+        {"text": "后端：", "bold": true, "color": "#3B82F6"},
+        {"text": "Rust / Axum / PostgreSQL"}
+      ]
+    }
+  ]
+}

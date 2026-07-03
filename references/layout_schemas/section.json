@@ -1,0 +1,39 @@
+{
+  "name": "section",
+  "description": "章节过渡页：大标题 + 章节编号 + 装饰线",
+  "shapes": [
+    {
+      "role": "chapter_num",
+      "type": "textbox",
+      "region": {"left": "6%", "top": "25%", "width": "88%", "height": "18%"},
+      "style": {"font_size": 96, "bold": true, "color": "#E5E7EB", "font_name": "Microsoft YaHei", "alignment": "left"},
+      "content_source": "chapter_num",
+      "adaptive": {"strategy": "shrink", "max_size": 120, "min_size": 48}
+    },
+    {
+      "role": "accent_line",
+      "type": "shape",
+      "shape_type": "rectangle",
+      "attach": {"to": "chapter_num", "edge": "bottom", "offset": "4%"},
+      "region": {"left": "6%", "width": "20%", "height": "0.8%"},
+      "style": "accent-line"
+    },
+    {
+      "role": "title",
+      "type": "textbox",
+      "attach": {"to": "accent_line", "edge": "bottom", "offset": "4%"},
+      "region": {"left": "6%", "width": "80%", "height": "18%"},
+      "style": {"font_size": 48, "bold": true, "color": "#1F2937", "font_name": "Microsoft YaHei", "alignment": "left"},
+      "content_source": "title",
+      "adaptive": {"strategy": "shrink", "max_size": 64, "min_size": 32}
+    },
+    {
+      "role": "subtitle",
+      "type": "textbox",
+      "attach": {"to": "title", "edge": "bottom", "offset": "2%"},
+      "region": {"left": "6%", "width": "70%", "height": "10%"},
+      "style": {"font_size": 20, "color": "#6B7280", "font_name": "Microsoft YaHei", "alignment": "left"},
+      "content_source": "subtitle"
+    }
+  ]
+}

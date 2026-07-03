@@ -1,0 +1,125 @@
+{
+  "title": "All Constraint Layouts Demo",
+  "slides": [
+    {
+      "layout": "cover_constraint",
+      "title": "自适应布局演示",
+      "subtitle": "所有模板都支持 constraint 模式",
+      "meta": "2026年7月 | 约束求解排版系统"
+    },
+    {
+      "layout": "section_constraint",
+      "title": "核心架构",
+      "chapter_num": "01",
+      "subtitle": "从单体到微服务的演进之路"
+    },
+    {
+      "layout": "title_content_constraint",
+      "title": "Title + Content 约束布局",
+      "content": ["约束求解的核心特性", "字体尽量大，边框自动编排", "支持 font_scale 比例", "同组等高底部对齐", "溢出自动截断并预警", "动态宽度按内容分配"]
+    },
+    {
+      "layout": "two_column_constraint",
+      "title": "Two Column 约束对比",
+      "left_content": ["方案 A：自研", "完全可控", "深度定制", "数据安全"],
+      "right_content": ["方案 B：采购", "快速上线", "维护简单", "即时支持", "成本可控", "风险分散"]
+    },
+    {
+      "layout": "quote_constraint",
+      "quote": "简单是终极的复杂。把所有不必要的元素去掉，剩下的就是本质。",
+      "author": "—— 某艺术家"
+    },
+    {
+      "layout": "data_highlight_constraint",
+      "title": "核心数据",
+      "big_number": "+247%",
+      "description": ["Q3 营收同比增长", "用户规模突破 1800 万", "企业客户续约率 94%"]
+    },
+    {
+      "layout": "three_column_constraint",
+      "title": "三栏约束布局",
+      "col_1": ["阶段一：验证", "MVP 上线", "种子用户", "核心打磨"],
+      "col_2": ["阶段二：增长", "产品匹配", "付费用户", "多渠道", "品牌提升"],
+      "col_3": ["阶段三：规模", "国际化", "企业版", "生态建设", "IPO 筹备"]
+    },
+    {
+      "layout": "chart_constraint",
+      "title": "图表约束布局",
+      "description": ["Q1-Q4 营收趋势", "同比增长 47%"],
+      "chart_data": {
+        "type": "column",
+        "categories": ["Q1", "Q2", "Q3", "Q4"],
+        "values": [120, 180, 240, 310],
+        "series_name": "营收（百万）"
+      }
+    },
+    {
+      "layout": "table_constraint",
+      "title": "表格约束布局",
+      "description": ["各季度产品数据汇总"],
+      "table_data": {
+        "headers": ["季度", "营收(百万)", "用户数(万)", "增长率"],
+        "rows": [
+          ["Q1", "120", "450", "+12%"],
+          ["Q2", "180", "620", "+35%"],
+          ["Q3", "240", "890", "+42%"],
+          ["Q4", "310", "1200", "+47%"]
+        ]
+      }
+    },
+    {
+      "layout": "timeline_constraint",
+      "title": "时间线约束布局",
+      "timeline_data": {
+        "milestones": [
+          {"date": "2024 Q1", "title": "立项", "description": "产品立项与团队组建"},
+          {"date": "2024 Q2", "title": "MVP", "description": "最小可行产品上线"},
+          {"date": "2024 Q3", "title": "迭代", "description": "核心功能打磨完成"},
+          {"date": "2024 Q4", "title": "发布", "description": "正式版公开发布"}
+        ]
+      }
+    },
+    {
+      "layout": "team_constraint",
+      "title": "团队约束布局",
+      "team_data": {
+        "members": [
+          {"name": "Member A", "role": "CEO", "desc": "战略与融资"},
+          {"name": "Member A", "role": "CTO", "desc": "技术架构"},
+          {"name": "Member B", "role": "CPO", "desc": "产品规划"},
+          {"name": "Member C", "role": "COO", "desc": "运营增长"}
+        ]
+      }
+    },
+    {
+      "layout": "process_constraint",
+      "title": "流程约束布局",
+      "process_data": {
+        "steps": [
+          {"step": "01", "title": "需求分析", "desc": "收集并整理用户需求"},
+          {"step": "02", "title": "方案设计", "desc": "输出技术方案文档"},
+          {"step": "03", "title": "开发实现", "desc": "编码与单元测试"},
+          {"step": "04", "title": "验收上线", "desc": "QA测试与正式发布"}
+        ]
+      }
+    },
+    {
+      "layout": "tree_constraint",
+      "title": "树形约束布局",
+      "tree_data": {
+        "root": "产品架构",
+        "children": [
+          {"name": "前端", "children": [{"name": "Web"}, {"name": "App"}, {"name": "小程序"}]},
+          {"name": "后端", "children": [{"name": "API"}, {"name": "微服务"}]},
+          {"name": "数据", "children": [{"name": "数据库"}, {"name": "缓存"}, {"name": "消息队列"}]}
+        ]
+      }
+    },
+    {
+      "layout": "image_text_split_constraint",
+      "title": "图片文字联合约束",
+      "image": "test_image.png",
+      "content": ["左侧图片按宽高比 3:2 自适应高度", "右侧文字区域独立约束", "图片与文字通过 attach 链联动", "整体布局自动编排"]
+    }
+  ]
+}

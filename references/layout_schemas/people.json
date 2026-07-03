@@ -1,0 +1,118 @@
+{
+  "name": "people",
+  "description": "人物介绍布局：头像区 + 姓名职位 + 简介",
+  "shapes": [
+    {
+      "role": "title",
+      "type": "textbox",
+      "region": {"left": "6%", "top": "6.7%", "width": "86%", "height": "10.7%"},
+      "style": "heading-1",
+      "content_source": "title",
+      "adaptive": {"strategy": "shrink", "min_size": 28}
+    },
+    {
+      "role": "accent_line",
+      "type": "shape",
+      "shape_type": "rectangle",
+      "attach": {"to": "title", "edge": "bottom", "offset": "0%"},
+      "region": {"left": "6%", "width": "11.3%", "height": "0.7%"},
+      "style": "accent-line"
+    },
+    {
+      "role": "avatar_1",
+      "type": "image",
+      "attach": {"to": "accent_line", "edge": "bottom", "offset": "4%"},
+      "region": {"left": "10%", "width": "12%", "height": "21%"},
+      "content_source": "avatar_1"
+    },
+    {
+      "role": "name_1",
+      "type": "textbox",
+      "attach": {"to": "avatar_1", "edge": "bottom", "offset": "1%"},
+      "region": {"left": "8%", "width": "16%", "height": "6%"},
+      "style": {"font_size": 18, "bold": true, "color": "#1F2937", "font_name": "Microsoft YaHei", "alignment": "center"},
+      "content_source": "name_1"
+    },
+    {
+      "role": "role_1",
+      "type": "textbox",
+      "attach": {"to": "name_1", "edge": "bottom", "offset": "0%"},
+      "region": {"left": "8%", "width": "16%", "height": "5%"},
+      "style": {"font_size": 14, "color": "#6B7280", "font_name": "Microsoft YaHei", "alignment": "center"},
+      "content_source": "role_1"
+    },
+    {
+      "role": "bio_1",
+      "type": "textbox",
+      "attach": {"to": "role_1", "edge": "bottom", "offset": "1%"},
+      "region": {"left": "6%", "width": "20%", "height": "30%"},
+      "style": {"font_size": 14, "color": "#4B5563", "font_name": "Microsoft YaHei", "alignment": "center"},
+      "content_source": "bio_1",
+      "adaptive": {"strategy": "shrink", "max_size": 16, "min_size": 10}
+    },
+    {
+      "role": "avatar_2",
+      "type": "image",
+      "attach": {"to": "accent_line", "edge": "bottom", "offset": "4%"},
+      "region": {"left": "36%", "width": "12%", "height": "21%"},
+      "content_source": "avatar_2"
+    },
+    {
+      "role": "name_2",
+      "type": "textbox",
+      "attach": {"to": "avatar_2", "edge": "bottom", "offset": "1%"},
+      "region": {"left": "34%", "width": "16%", "height": "6%"},
+      "style": {"font_size": 18, "bold": true, "color": "#1F2937", "font_name": "Microsoft YaHei", "alignment": "center"},
+      "content_source": "name_2"
+    },
+    {
+      "role": "role_2",
+      "type": "textbox",
+      "attach": {"to": "name_2", "edge": "bottom", "offset": "0%"},
+      "region": {"left": "34%", "width": "16%", "height": "5%"},
+      "style": {"font_size": 14, "color": "#6B7280", "font_name": "Microsoft YaHei", "alignment": "center"},
+      "content_source": "role_2"
+    },
+    {
+      "role": "bio_2",
+      "type": "textbox",
+      "attach": {"to": "role_2", "edge": "bottom", "offset": "1%"},
+      "region": {"left": "32%", "width": "20%", "height": "30%"},
+      "style": {"font_size": 14, "color": "#4B5563", "font_name": "Microsoft YaHei", "alignment": "center"},
+      "content_source": "bio_2",
+      "adaptive": {"strategy": "shrink", "max_size": 16, "min_size": 10}
+    },
+    {
+      "role": "avatar_3",
+      "type": "image",
+      "attach": {"to": "accent_line", "edge": "bottom", "offset": "4%"},
+      "region": {"left": "62%", "width": "12%", "height": "21%"},
+      "content_source": "avatar_3"
+    },
+    {
+      "role": "name_3",
+      "type": "textbox",
+      "attach": {"to": "avatar_3", "edge": "bottom", "offset": "1%"},
+      "region": {"left": "60%", "width": "16%", "height": "6%"},
+      "style": {"font_size": 18, "bold": true, "color": "#1F2937", "font_name": "Microsoft YaHei", "alignment": "center"},
+      "content_source": "name_3"
+    },
+    {
+      "role": "role_3",
+      "type": "textbox",
+      "attach": {"to": "name_3", "edge": "bottom", "offset": "0%"},
+      "region": {"left": "60%", "width": "16%", "height": "5%"},
+      "style": {"font_size": 14, "color": "#6B7280", "font_name": "Microsoft YaHei", "alignment": "center"},
+      "content_source": "role_3"
+    },
+    {
+      "role": "bio_3",
+      "type": "textbox",
+      "attach": {"to": "role_3", "edge": "bottom", "offset": "1%"},
+      "region": {"left": "58%", "width": "20%", "height": "30%"},
+      "style": {"font_size": 14, "color": "#4B5563", "font_name": "Microsoft YaHei", "alignment": "center"},
+      "content_source": "bio_3",
+      "adaptive": {"strategy": "shrink", "max_size": 16, "min_size": 10}
+    }
+  ]
+}

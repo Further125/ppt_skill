@@ -1,0 +1,11 @@
+{
+  "name": "Cyber Neon",
+  "primary": "#0EA5E9",
+  "secondary": "#A855F7",
+  "accent": ["#0EA5E9", "#A855F7", "#22D3EE", "#C084FC", "#38BDF8", "#E879F9"],
+  "background": "#0F172A",
+  "text": "#E2E8F0",
+  "light_bg": "#1E293B",
+  "font_title": "Microsoft YaHei",
+  "font_body": "Microsoft YaHei"
+}

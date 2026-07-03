@@ -1,0 +1,38 @@
+{
+  "name": "default",
+  "category": "system",
+  "description": "Base template with 13+ layouts",
+  "source": "base_template.pptx",
+  "slide_width": 12191695,
+  "slide_height": 6858000,
+  "layouts": [
+    "Title Slide",
+    "Title and Content",
+    "Section Header",
+    "Two Content",
+    "Comparison",
+    "Title Only",
+    "Blank",
+    "Content with Caption",
+    "Picture with Caption",
+    "Title and Vertical Text",
+    "Vertical Title and Text"
+  ],
+  "placeholders": {
+    "Title 1": "title",
+    "Subtitle 2": "title",
+    "Date Placeholder 3": "date",
+    "Content Placeholder 2": "content",
+    "Text Placeholder 2": "content",
+    "Content Placeholder 3": "content",
+    "Date Placeholder 4": "date",
+    "Text Placeholder 4": "content",
+    "Content Placeholder 5": "content",
+    "Date Placeholder 6": "date",
+    "Date Placeholder 2": "date",
+    "Date Placeholder 1": "date",
+    "Text Placeholder 3": "content",
+    "Vertical Text Placeholder 2": "content",
+    "Vertical Title 1": "title"
+  }
+}

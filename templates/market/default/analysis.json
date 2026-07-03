@@ -1,0 +1,834 @@
+{
+  "slide_width": 12191695,
+  "slide_height": 6858000,
+  "layouts": [
+    {
+      "name": "Title Slide",
+      "placeholders": [
+        {
+          "name": "Title 1",
+          "type": "CENTER_TITLE (3)",
+          "left": 685800,
+          "top": 2130425,
+          "width": 7772400,
+          "height": 1470025
+        },
+        {
+          "name": "Subtitle 2",
+          "type": "SUBTITLE (4)",
+          "left": 1371600,
+          "top": 3886200,
+          "width": 6400800,
+          "height": 1752600
+        },
+        {
+          "name": "Date Placeholder 3",
+          "type": "DATE (16)",
+          "left": 457200,
+          "top": 6356350,
+          "width": 2133600,
+          "height": 365125
+        },
+        {
+          "name": "Footer Placeholder 4",
+          "type": "FOOTER (15)",
+          "left": 3124200,
+          "top": 6356350,
+          "width": 2895600,
+          "height": 365125
+        },
+        {
+          "name": "Slide Number Placeholder 5",
+          "type": "SLIDE_NUMBER (13)",
+          "left": 6553200,
+          "top": 6356350,
+          "width": 2133600,
+          "height": 365125
+        }
+      ]
+    },
+    {
+      "name": "Title and Content",
+      "placeholders": [
+        {
+          "name": "Title 1",
+          "type": "TITLE (1)",
+          "left": 457200,
+          "top": 274638,
+          "width": 8229600,
+          "height": 1143000
+        },
+        {
+          "name": "Content Placeholder 2",
+          "type": "OBJECT (7)",
+          "left": 457200,
+          "top": 1600200,
+          "width": 8229600,
+          "height": 4525963
+        },
+        {
+          "name": "Date Placeholder 3",
+          "type": "DATE (16)",
+          "left": 457200,
+          "top": 6356350,
+          "width": 2133600,
+          "height": 365125
+        },
+        {
+          "name": "Footer Placeholder 4",
+          "type": "FOOTER (15)",
+          "left": 3124200,
+          "top": 6356350,
+          "width": 2895600,
+          "height": 365125
+        },
+        {
+          "name": "Slide Number Placeholder 5",
+          "type": "SLIDE_NUMBER (13)",
+          "left": 6553200,
+          "top": 6356350,
+          "width": 2133600,
+          "height": 365125
+        }
+      ]
+    },
+    {
+      "name": "Section Header",
+      "placeholders": [
+        {
+          "name": "Title 1",
+          "type": "TITLE (1)",
+          "left": 722313,
+          "top": 4406900,
+          "width": 7772400,
+          "height": 1362075
+        },
+        {
+          "name": "Text Placeholder 2",
+          "type": "BODY (2)",
+          "left": 722313,
+          "top": 2906713,
+          "width": 7772400,
+          "height": 1500187
+        },
+        {
+          "name": "Date Placeholder 3",
+          "type": "DATE (16)",
+          "left": 457200,
+          "top": 6356350,
+          "width": 2133600,
+          "height": 365125
+        },
+        {
+          "name": "Footer Placeholder 4",
+          "type": "FOOTER (15)",
+          "left": 3124200,
+          "top": 6356350,
+          "width": 2895600,
+          "height": 365125
+        },
+        {
+          "name": "Slide Number Placeholder 5",
+          "type": "SLIDE_NUMBER (13)",
+          "left": 6553200,
+          "top": 6356350,
+          "width": 2133600,
+          "height": 365125
+        }
+      ]
+    },
+    {
+      "name": "Two Content",
+      "placeholders": [
+        {
+          "name": "Title 1",
+          "type": "TITLE (1)",
+          "left": 457200,
+          "top": 274638,
+          "width": 8229600,
+          "height": 1143000
+        },
+        {
+          "name": "Content Placeholder 2",
+          "type": "OBJECT (7)",
+          "left": 457200,
+          "top": 1600200,
+          "width": 4038600,
+          "height": 4525963
+        },
+        {
+          "name": "Content Placeholder 3",
+          "type": "OBJECT (7)",
+          "left": 4648200,
+          "top": 1600200,
+          "width": 4038600,
+          "height": 4525963
+        },
+        {
+          "name": "Date Placeholder 4",
+          "type": "DATE (16)",
+          "left": 457200,
+          "top": 6356350,
+          "width": 2133600,
+          "height": 365125
+        },
+        {
+          "name": "Footer Placeholder 5",
+          "type": "FOOTER (15)",
+          "left": 3124200,
+          "top": 6356350,
+          "width": 2895600,
+          "height": 365125
+        },
+        {
+          "name": "Slide Number Placeholder 6",
+          "type": "SLIDE_NUMBER (13)",
+          "left": 6553200,
+          "top": 6356350,
+          "width": 2133600,
+          "height": 365125
+        }
+      ]
+    },
+    {
+      "name": "Comparison",
+      "placeholders": [
+        {
+          "name": "Title 1",
+          "type": "TITLE (1)",
+          "left": 457200,
+          "top": 274638,
+          "width": 8229600,
+          "height": 1143000
+        },
+        {
+          "name": "Text Placeholder 2",
+          "type": "BODY (2)",
+          "left": 457200,
+          "top": 1535113,
+          "width": 4040188,
+          "height": 639762
+        },
+        {
+          "name": "Content Placeholder 3",
+          "type": "OBJECT (7)",
+          "left": 457200,
+          "top": 2174875,
+          "width": 4040188,
+          "height": 3951288
+        },
+        {
+          "name": "Text Placeholder 4",
+          "type": "BODY (2)",
+          "left": 4645025,
+          "top": 1535113,
+          "width": 4041775,
+          "height": 639762
+        },
+        {
+          "name": "Content Placeholder 5",
+          "type": "OBJECT (7)",
+          "left": 4645025,
+          "top": 2174875,
+          "width": 4041775,
+          "height": 3951288
+        },
+        {
+          "name": "Date Placeholder 6",
+          "type": "DATE (16)",
+          "left": 457200,
+          "top": 6356350,
+          "width": 2133600,
+          "height": 365125
+        },
+        {
+          "name": "Footer Placeholder 7",
+          "type": "FOOTER (15)",
+          "left": 3124200,
+          "top": 6356350,
+          "width": 2895600,
+          "height": 365125
+        },
+        {
+          "name": "Slide Number Placeholder 8",
+          "type": "SLIDE_NUMBER (13)",
+          "left": 6553200,
+          "top": 6356350,
+          "width": 2133600,
+          "height": 365125
+        }
+      ]
+    },
+    {
+      "name": "Title Only",
+      "placeholders": [
+        {
+          "name": "Title 1",
+          "type": "TITLE (1)",
+          "left": 457200,
+          "top": 274638,
+          "width": 8229600,
+          "height": 1143000
+        },
+        {
+          "name": "Date Placeholder 2",
+          "type": "DATE (16)",
+          "left": 457200,
+          "top": 6356350,
+          "width": 2133600,
+          "height": 365125
+        },
+        {
+          "name": "Footer Placeholder 3",
+          "type": "FOOTER (15)",
+          "left": 3124200,
+          "top": 6356350,
+          "width": 2895600,
+          "height": 365125
+        },
+        {
+          "name": "Slide Number Placeholder 4",
+          "type": "SLIDE_NUMBER (13)",
+          "left": 6553200,
+          "top": 6356350,
+          "width": 2133600,
+          "height": 365125
+        }
+      ]
+    },
+    {
+      "name": "Blank",
+      "placeholders": [
+        {
+          "name": "Date Placeholder 1",
+          "type": "DATE (16)",
+          "left": 457200,
+          "top": 6356350,
+          "width": 2133600,
+          "height": 365125
+        },
+        {
+          "name": "Footer Placeholder 2",
+          "type": "FOOTER (15)",
+          "left": 3124200,
+          "top": 6356350,
+          "width": 2895600,
+          "height": 365125
+        },
+        {
+          "name": "Slide Number Placeholder 3",
+          "type": "SLIDE_NUMBER (13)",
+          "left": 6553200,
+          "top": 6356350,
+          "width": 2133600,
+          "height": 365125
+        }
+      ]
+    },
+    {
+      "name": "Content with Caption",
+      "placeholders": [
+        {
+          "name": "Title 1",
+          "type": "TITLE (1)",
+          "left": 457200,
+          "top": 273050,
+          "width": 3008313,
+          "height": 1162050
+        },
+        {
+          "name": "Content Placeholder 2",
+          "type": "OBJECT (7)",
+          "left": 3575050,
+          "top": 273050,
+          "width": 5111750,
+          "height": 5853113
+        },
+        {
+          "name": "Text Placeholder 3",
+          "type": "BODY (2)",
+          "left": 457200,
+          "top": 1435100,
+          "width": 3008313,
+          "height": 4691063
+        },
+        {
+          "name": "Date Placeholder 4",
+          "type": "DATE (16)",
+          "left": 457200,
+          "top": 6356350,
+          "width": 2133600,
+          "height": 365125
+        },
+        {
+          "name": "Footer Placeholder 5",
+          "type": "FOOTER (15)",
+          "left": 3124200,
+          "top": 6356350,
+          "width": 2895600,
+          "height": 365125
+        },
+        {
+          "name": "Slide Number Placeholder 6",
+          "type": "SLIDE_NUMBER (13)",
+          "left": 6553200,
+          "top": 6356350,
+          "width": 2133600,
+          "height": 365125
+        }
+      ]
+    },
+    {
+      "name": "Picture with Caption",
+      "placeholders": [
+        {
+          "name": "Title 1",
+          "type": "TITLE (1)",
+          "left": 1792288,
+          "top": 4800600,
+          "width": 5486400,
+          "height": 566738
+        },
+        {
+          "name": "Picture Placeholder 2",
+          "type": "PICTURE (18)",
+          "left": 1792288,
+          "top": 612775,
+          "width": 5486400,
+          "height": 4114800
+        },
+        {
+          "name": "Text Placeholder 3",
+          "type": "BODY (2)",
+          "left": 1792288,
+          "top": 5367338,
+          "width": 5486400,
+          "height": 804862
+        },
+        {
+          "name": "Date Placeholder 4",
+          "type": "DATE (16)",
+          "left": 457200,
+          "top": 6356350,
+          "width": 2133600,
+          "height": 365125
+        },
+        {
+          "name": "Footer Placeholder 5",
+          "type": "FOOTER (15)",
+          "left": 3124200,
+          "top": 6356350,
+          "width": 2895600,
+          "height": 365125
+        },
+        {
+          "name": "Slide Number Placeholder 6",
+          "type": "SLIDE_NUMBER (13)",
+          "left": 6553200,
+          "top": 6356350,
+          "width": 2133600,
+          "height": 365125
+        }
+      ]
+    },
+    {
+      "name": "Title and Vertical Text",
+      "placeholders": [
+        {
+          "name": "Title 1",
+          "type": "TITLE (1)",
+          "left": 457200,
+          "top": 274638,
+          "width": 8229600,
+          "height": 1143000
+        },
+        {
+          "name": "Vertical Text Placeholder 2",
+          "type": "BODY (2)",
+          "left": 457200,
+          "top": 1600200,
+          "width": 8229600,
+          "height": 4525963
+        },
+        {
+          "name": "Date Placeholder 3",
+          "type": "DATE (16)",
+          "left": 457200,
+          "top": 6356350,
+          "width": 2133600,
+          "height": 365125
+        },
+        {
+          "name": "Footer Placeholder 4",
+          "type": "FOOTER (15)",
+          "left": 3124200,
+          "top": 6356350,
+          "width": 2895600,
+          "height": 365125
+        },
+        {
+          "name": "Slide Number Placeholder 5",
+          "type": "SLIDE_NUMBER (13)",
+          "left": 6553200,
+          "top": 6356350,
+          "width": 2133600,
+          "height": 365125
+        }
+      ]
+    },
+    {
+      "name": "Vertical Title and Text",
+      "placeholders": [
+        {
+          "name": "Vertical Title 1",
+          "type": "TITLE (1)",
+          "left": 6629400,
+          "top": 274638,
+          "width": 2057400,
+          "height": 5851525
+        },
+        {
+          "name": "Vertical Text Placeholder 2",
+          "type": "BODY (2)",
+          "left": 457200,
+          "top": 274638,
+          "width": 6019800,
+          "height": 5851525
+        },
+        {
+          "name": "Date Placeholder 3",
+          "type": "DATE (16)",
+          "left": 457200,
+          "top": 6356350,
+          "width": 2133600,
+          "height": 365125
+        },
+        {
+          "name": "Footer Placeholder 4",
+          "type": "FOOTER (15)",
+          "left": 3124200,
+          "top": 6356350,
+          "width": 2895600,
+          "height": 365125
+        },
+        {
+          "name": "Slide Number Placeholder 5",
+          "type": "SLIDE_NUMBER (13)",
+          "left": 6553200,
+          "top": 6356350,
+          "width": 2133600,
+          "height": 365125
+        }
+      ]
+    }
+  ],
+  "slides": [
+    {
+      "shapes": [
+        {
+          "name": "Rectangle 1",
+          "type": "auto_shape (1)",
+          "fill": "#0B1F3A"
+        },
+        {
+          "name": "Rectangle 2",
+          "type": "auto_shape (1)",
+          "fill": "#3B82F6"
+        },
+        {
+          "name": "TextBox 3",
+          "type": "text_box (17)",
+          "text": "__TITLE__"
+        },
+        {
+          "name": "TextBox 4",
+          "type": "text_box (17)",
+          "text": "__SUBTITLE__"
+        },
+        {
+          "name": "TextBox 5",
+          "type": "text_box (17)",
+          "text": "__DATE__"
+        }
+      ]
+    },
+    {
+      "shapes": [
+        {
+          "name": "TextBox 1",
+          "type": "text_box (17)",
+          "text": "__TITLE__"
+        },
+        {
+          "name": "Rectangle 2",
+          "type": "auto_shape (1)",
+          "fill": "#3B82F6"
+        },
+        {
+          "name": "TextBox 3",
+          "type": "text_box (17)",
+          "text": "__ITEMS__"
+        }
+      ]
+    },
+    {
+      "shapes": [
+        {
+          "name": "TextBox 1",
+          "type": "text_box (17)",
+          "text": "__TITLE__"
+        },
+        {
+          "name": "Rectangle 2",
+          "type": "auto_shape (1)",
+          "fill": "#3B82F6"
+        },
+        {
+          "name": "TextBox 3",
+          "type": "text_box (17)",
+          "text": "__CONTENT__"
+        }
+      ]
+    },
+    {
+      "shapes": [
+        {
+          "name": "TextBox 1",
+          "type": "text_box (17)",
+          "text": "__TITLE__"
+        },
+        {
+          "name": "Rectangle 2",
+          "type": "auto_shape (1)",
+          "fill": "#3B82F6"
+        },
+        {
+          "name": "TextBox 3",
+          "type": "text_box (17)",
+          "text": "__LEFT__"
+        },
+        {
+          "name": "Rectangle 4",
+          "type": "auto_shape (1)",
+          "fill": "#F3F4F6"
+        },
+        {
+          "name": "TextBox 5",
+          "type": "text_box (17)",
+          "text": "__RIGHT__"
+        }
+      ]
+    },
+    {
+      "shapes": [
+        {
+          "name": "TextBox 1",
+          "type": "text_box (17)",
+          "text": "__TITLE__"
+        },
+        {
+          "name": "Rectangle 2",
+          "type": "auto_shape (1)",
+          "fill": "#3B82F6"
+        },
+        {
+          "name": "TextBox 3",
+          "type": "text_box (17)",
+          "text": "__DESC__"
+        },
+        {
+          "name": "Rectangle 4",
+          "type": "auto_shape (1)",
+          "fill": "#F3F4F6"
+        },
+        {
+          "name": "TextBox 5",
+          "type": "text_box (17)",
+          "text": "__CHART__"
+        }
+      ]
+    },
+    {
+      "shapes": [
+        {
+          "name": "Rectangle 1",
+          "type": "auto_shape (1)",
+          "fill": "#0B1F3A"
+        },
+        {
+          "name": "TextBox 2",
+          "type": "text_box (17)",
+          "text": "__TITLE__"
+        },
+        {
+          "name": "TextBox 3",
+          "type": "text_box (17)",
+          "text": "__SUBTITLE__"
+        }
+      ]
+    },
+    {
+      "shapes": [
+        {
+          "name": "TextBox 1",
+          "type": "text_box (17)",
+          "text": "__TITLE__"
+        },
+        {
+          "name": "Rectangle 2",
+          "type": "auto_shape (1)",
+          "fill": "#3B82F6"
+        },
+        {
+          "name": "TextBox 3",
+          "type": "text_box (17)",
+          "text": "__DESC__"
+        },
+        {
+          "name": "Rectangle 4",
+          "type": "auto_shape (1)",
+          "fill": "#F3F4F6"
+        },
+        {
+          "name": "TextBox 5",
+          "type": "text_box (17)",
+          "text": "__TABLE__"
+        }
+      ]
+    },
+    {
+      "shapes": [
+        {
+          "name": "TextBox 1",
+          "type": "text_box (17)",
+          "text": "__TITLE__"
+        },
+        {
+          "name": "Rectangle 2",
+          "type": "auto_shape (1)",
+          "fill": "#3B82F6"
+        },
+        {
+          "name": "Rectangle 3",
+          "type": "auto_shape (1)",
+          "fill": "#3B82F6"
+        },
+        {
+          "name": "TextBox 4",
+          "type": "text_box (17)",
+          "text": "__TIMELINE__"
+        }
+      ]
+    },
+    {
+      "shapes": [
+        {
+          "name": "TextBox 1",
+          "type": "text_box (17)",
+          "text": "__TITLE__"
+        },
+        {
+          "name": "Rectangle 2",
+          "type": "auto_shape (1)",
+          "fill": "#3B82F6"
+        },
+        {
+          "name": "Rectangle 3",
+          "type": "auto_shape (1)",
+          "fill": "#F3F4F6"
+        },
+        {
+          "name": "TextBox 4",
+          "type": "text_box (17)",
+          "text": "__IMAGE__"
+        },
+        {
+          "name": "TextBox 5",
+          "type": "text_box (17)",
+          "text": "__CONTENT__"
+        }
+      ]
+    },
+    {
+      "shapes": [
+        {
+          "name": "Rectangle 1",
+          "type": "auto_shape (1)",
+          "fill": "#0B1F3A"
+        },
+        {
+          "name": "TextBox 2",
+          "type": "text_box (17)",
+          "text": "__QUOTE__"
+        },
+        {
+          "name": "TextBox 3",
+          "type": "text_box (17)",
+          "text": "__AUTHOR__"
+        }
+      ]
+    },
+    {
+      "shapes": [
+        {
+          "name": "TextBox 1",
+          "type": "text_box (17)",
+          "text": "__TITLE__"
+        },
+        {
+          "name": "Rectangle 2",
+          "type": "auto_shape (1)",
+          "fill": "#3B82F6"
+        },
+        {
+          "name": "TextBox 3",
+          "type": "text_box (17)",
+          "text": "__TEAM__"
+        }
+      ]
+    },
+    {
+      "shapes": [
+        {
+          "name": "TextBox 1",
+          "type": "text_box (17)",
+          "text": "__TITLE__"
+        },
+        {
+          "name": "Rectangle 2",
+          "type": "auto_shape (1)",
+          "fill": "#3B82F6"
+        },
+        {
+          "name": "TextBox 3",
+          "type": "text_box (17)",
+          "text": "__BIG_NUMBER__"
+        },
+        {
+          "name": "TextBox 4",
+          "type": "text_box (17)",
+          "text": "__LABEL__"
+        }
+      ]
+    },
+    {
+      "shapes": [
+        {
+          "name": "TextBox 1",
+          "type": "text_box (17)",
+          "text": "__TITLE__"
+        },
+        {
+          "name": "Rectangle 2",
+          "type": "auto_shape (1)",
+          "fill": "#3B82F6"
+        },
+        {
+          "name": "TextBox 3",
+          "type": "text_box (17)",
+          "text": "__PROCESS__"
+        }
+      ]
+    }
+  ]
+}

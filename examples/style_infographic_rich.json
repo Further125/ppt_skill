@@ -1,0 +1,92 @@
+{
+  "title": "Agent Framework Landscape",
+  "theme": {
+    "primary": "#2563EB",
+    "accent": "#F59E0B",
+    "bg": "#FAFBFC",
+    "text": "#111827",
+    "light_text": "#6B7280"
+  },
+  "slides": [
+    {
+      "layout": "cover",
+      "title": "Agent Framework Landscape",
+      "subtitle": "A Visual Guide to Multi-Agent Systems in 2026",
+      "date": "June 2026"
+    },
+    {
+      "layout": "data_highlight",
+      "title": "Market Overview",
+      "big_number": "6",
+      "label": "Major frameworks dominating the ecosystem"
+    },
+    {
+      "layout": "title_content",
+      "title": "The Big Six",
+      "content": [
+        "MetaGPT (69K ⭐) — Software company simulation with SOPs",
+        "AutoGen (38K ⭐) — Conversational multi-agent from Microsoft",
+        "CrewAI (26K ⭐) — Role-based crew orchestration",
+        "LangGraph (22K ⭐) — State-machine graph orchestration",
+        "OpenAI Agents (27K ⭐) — Lightweight native toolkit",
+        "12-Factor Agents (24K ⭐) — Production-ready design principles"
+      ]
+    },
+    {
+      "layout": "table",
+      "title": "Framework Comparison",
+      "description": "Core capabilities across dimensions",
+      "table_data": {
+        "headers": ["Framework", "Paradigm", "Lang", "Best For"],
+        "rows": [
+          ["MetaGPT", "SOP Simulation", "Python", "Code Generation"],
+          ["AutoGen", "Conversation", "Python", "Research"],
+          ["CrewAI", "Role-Based", "Python", "Automation"],
+          ["LangGraph", "State Graph", "Python", "Complex Flows"],
+          ["OpenAI", "Function Call", "Python/JS", "Prototyping"],
+          ["12-Factor", "Design Pattern", "Any", "Production"]
+        ]
+      }
+    },
+    {
+      "layout": "process",
+      "title": "Building an Agent System",
+      "process_data": {
+        "steps": [
+          {"title": "Define Goal"},
+          {"title": "Choose Framework"},
+          {"title": "Design Agents"},
+          {"title": "Build Tools"},
+          {"title": "Orchestrate Flow"},
+          {"title": "Deploy & Monitor"}
+        ]
+      }
+    },
+    {
+      "layout": "two_column",
+      "title": "When to Use What",
+      "left_content": [
+        "🎯 Code Generation → MetaGPT",
+        "🗣️  Conversational Research → AutoGen",
+        "⚡ Rapid Prototyping → OpenAI Agents",
+        "📊 Business Automation → CrewAI"
+      ],
+      "right_content": [
+        "🔀 Complex State Flows → LangGraph",
+        "🏭 Production Systems → 12-Factor",
+        "🔍 Deep Research → Multi-Agent Swarm",
+        "💻 DevOps Pipelines → AutoGen + Tools"
+      ]
+    },
+    {
+      "layout": "quote",
+      "quote": "The best agent is not the smartest one, but the one that knows when to ask for help.",
+      "author": "— Agent Design Principle"
+    },
+    {
+      "layout": "closing",
+      "title": "Start Building Agents",
+      "subtitle": "Pick a framework. Define a goal. Iterate."
+    }
+  ]
+}

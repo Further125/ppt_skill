@@ -1,0 +1,48 @@
+{
+  "title": "Auto Route Test",
+  "slides": [
+    {
+      "title": "自动路由封面",
+      "subtitle": "无需指定layout",
+      "date": "2026年6月"
+    },
+    {
+      "title": "自动路由内容页",
+      "content": ["这条slide没有layout字段", "intent_router自动推断为title_content"]
+    },
+    {
+      "title": "双栏对比",
+      "left_content": ["左侧内容A", "左侧内容B"],
+      "right_content": ["右侧内容X", "右侧内容Y"]
+    },
+    {
+      "quote": "相对坐标让LLM更容易理解",
+      "author": "Schema引擎"
+    },
+    {
+      "title": "自由形状+相对坐标",
+      "content": "shapes数组使用百分比坐标",
+      "shapes": [
+        {
+          "type": "shape",
+          "shape_type": "rounded_rectangle",
+          "left": "60%",
+          "top": "20%",
+          "width": "30%",
+          "height": "15%",
+          "fill": "#10B981",
+          "content": "相对坐标!"
+        },
+        {
+          "type": "shape",
+          "shape_type": "oval",
+          "left": "70%",
+          "top": "50%",
+          "width": "15%",
+          "height": "15%",
+          "fill": "#EF4444"
+        }
+      ]
+    }
+  ]
+}

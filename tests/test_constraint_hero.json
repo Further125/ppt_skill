@@ -1,0 +1,17 @@
+{
+  "title": "Constraint Hero Top Test",
+  "slides": [
+    {
+      "layout": "hero_top_constraint",
+      "title": "约束求解 Hero Top",
+      "hero_content": [
+        {"text": "Q3 营收增长", "bold": true},
+        "同比 +47%，用户规模与收入双轮驱动"
+      ],
+      "card_1": ["用户增长", "DAU 240万", "MAU 1800万"],
+      "card_2": ["收入结构", "订阅 68%", "企业 32%"],
+      "card_3": ["增长率", "营收 +47%", "用户 +35%"],
+      "card_4": ["覆盖", "12 国家", "8 语言"]
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "title": "Free Shape Demo",
+  "slides": [
+    {
+      "layout": "title_content",
+      "title": "自由布局测试",
+      "content": "本页包含自由放置的文本框、图片和形状",
+      "shapes": [
+        {
+          "type": "text",
+          "left": 1000000,
+          "top": 4000000,
+          "width": 3000000,
+          "height": 800000,
+          "content": [
+            {"text": "Rust", "bold": true, "color": "#3B82F6", "size": 28},
+            {"text": " + ", "size": 24},
+            {"text": "TypeScript", "bold": true, "color": "#F59E0B", "size": 28}
+          ]
+        },
+        {
+          "type": "shape",
+          "left": 5000000,
+          "top": 4000000,
+          "width": 2000000,
+          "height": 800000,
+          "shape_type": "rounded_rectangle",
+          "fill": "#10B981",
+          "border_color": "#059669",
+          "border_width": 2
+        },
+        {
+          "type": "shape",
+          "left": 8000000,
+          "top": 4000000,
+          "width": 1000000,
+          "height": 1000000,
+          "shape_type": "oval",
+          "fill": "#EF4444"
+        }
+      ]
+    }
+  ]
+}

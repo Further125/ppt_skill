@@ -1,0 +1,77 @@
+{
+  "name": "cover",
+  "description": "Auto-generated schema from template analysis",
+  "shapes": [
+    {
+      "role": "shape",
+      "type": "shape",
+      "region": {
+        "left": "0.0%",
+        "top": "0.0%",
+        "width": "100.0%",
+        "height": "100.0%"
+      },
+      "style": {}
+    },
+    {
+      "role": "accent_line",
+      "type": "shape",
+      "region": {
+        "left": "6.0%",
+        "top": "42.7%",
+        "width": "1.1%",
+        "height": "24.0%"
+      },
+      "shape_type": "rectangle",
+      "style": {
+        "fill": "#3B82F6"
+      }
+    },
+    {
+      "role": "title",
+      "type": "shape",
+      "region": {
+        "left": "8.3%",
+        "top": "40.0%",
+        "width": "75.0%",
+        "height": "16.0%"
+      },
+      "style": {
+        "color": "#FFFFFF"
+      },
+      "content_source": "title",
+      "adaptive": {
+        "strategy": "shrink",
+        "min_size": 20
+      }
+    },
+    {
+      "role": "subtitle",
+      "type": "shape",
+      "region": {
+        "left": "8.3%",
+        "top": "57.3%",
+        "width": "75.0%",
+        "height": "8.0%"
+      },
+      "style": {
+        "color": "#FFFFFF"
+      },
+      "content_source": "subtitle"
+    },
+    {
+      "role": "date",
+      "type": "shape",
+      "region": {
+        "left": "8.3%",
+        "top": "66.7%",
+        "width": "75.0%",
+        "height": "6.7%"
+      },
+      "style": {
+        "color": "#FFFFFF"
+      },
+      "content_source": "date"
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "Ocean Tech",
+  "primary": "#06B6D4",
+  "secondary": "#164E63",
+  "accent": ["#06B6D4", "#22D3EE", "#67E8F9", "#0891B2", "#155E75", "#0E7490"],
+  "background": "#ECFEFF",
+  "text": "#083344",
+  "light_bg": "#CFFAFE",
+  "font_title": "Microsoft YaHei",
+  "font_body": "Microsoft YaHei"
+}

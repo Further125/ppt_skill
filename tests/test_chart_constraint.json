@@ -1,0 +1,16 @@
+{
+  "title": "Chart Constraint Test",
+  "slides": [
+    {
+      "layout": "chart_constraint",
+      "title": "图表约束布局测试",
+      "description": ["Q1-Q4 营收趋势", "同比增长 47%", "企业客户贡献 68%"],
+      "chart_data": {
+        "type": "column",
+        "categories": ["Q1", "Q2", "Q3", "Q4"],
+        "values": [120, 180, 240, 310],
+        "series_name": "营收（百万）"
+      }
+    }
+  ]
+}
