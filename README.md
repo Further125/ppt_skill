@@ -2,6 +2,8 @@
 
 A powerful, template-based PowerPoint generation system. Write a JSON spec, get a polished `.pptx`.
 
+> 🤖 Built with vibe coding — AI-assisted, human-reviewed.
+
 [Chinese Docs](README_CN.md)
 
 ## Features

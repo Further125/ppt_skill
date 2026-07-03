@@ -4,6 +4,8 @@
 
 基于 Python + python-pptx 的 PPT 自动生成系统。编写 JSON 描述文件，生成精美的 `.pptx`。
 
+> 🤖 使用 vibe coding 方式构建 — AI 辅助，人工审校。
+
 ## 快速开始
 
 ```bash
