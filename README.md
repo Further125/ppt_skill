@@ -61,7 +61,7 @@ python scripts/template_analyzer.py templates/base_template.pptx --output contra
 python scripts/contract_to_schema.py contract.json --layout cover --output schema.json
 
 # With a theme
-python scripts/build_pptx.py examples/demo_deck.json output/my_deck.pptx --theme ocean
+python scripts/build_pptx.py examples/demo_deck.json output/my_deck.pptx --theme ocean_tech
 
 # Export to PDF
 python scripts/export.py output/my_deck.pptx --format pdf --output my_deck.pdf
@@ -261,7 +261,7 @@ See [docs/advanced.md](docs/advanced.md) for more.
 
 ## Themes
 
-Built-in themes: `default`, `ocean`, `sunset`, `forest`, `berry`, `monochrome`.
+Built-in themes: `default`, `dark`, `warm`, `forest`, `minimal`.
 
 Custom themes can be added to `references/themes/`.
 

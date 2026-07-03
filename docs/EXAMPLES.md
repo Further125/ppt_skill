@@ -57,7 +57,7 @@ This directory contains example JSON decks demonstrating various features of PPT
 
 ```bash
 python scripts/build_pptx.py examples/demo_deck.json output/demo.pptx
-python scripts/build_pptx.py examples/full_demo.json output/full.pptx --theme ocean
+python scripts/build_pptx.py examples/full_demo.json output/full.pptx --theme ocean_tech
 python scripts/build_pptx.py examples/auto_route_test.json output/auto.pptx --auto-route
 ```
 

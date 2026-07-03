@@ -7,32 +7,43 @@ PPT Skill includes a theme engine that can recolor generated presentations witho
 | Theme | Style |
 |---|---|
 | `default` | Blue accent on light background |
-| `ocean` | Teal/blue ocean palette |
-| `sunset` | Warm orange/red palette |
-| `forest` | Green nature palette |
-| `berry` | Purple/magenta palette |
-| `monochrome` | Grayscale palette |
-| `minimal` | Clean gray palette |
 | `dark` | Dark background with light text |
+| `warm` | Warm orange/red palette |
+| `forest` | Green nature palette |
+| `minimal` | Clean gray palette |
+
+## Custom Themes in `references/themes/`
+
+| Theme | File | Style |
+|---|---|---|
+| `ocean_tech` | `references/themes/ocean_tech.json` | Teal/blue tech palette |
+| `gold_corporate` | `references/themes/gold_corporate.json` | Gold corporate palette |
+| `rose_elegant` | `references/themes/rose_elegant.json` | Purple/magenta elegant palette |
+| `white_gold` | `references/themes/white_gold.json` | White/gold corporate palette |
+| `cyber_neon` | `references/themes/cyber_neon.json` | Cyberpunk neon palette |
 
 ## Applying a Theme
 
 ```bash
-python scripts/build_pptx.py deck.json output.pptx --theme ocean
+python scripts/build_pptx.py deck.json output.pptx --theme dark
+python scripts/build_pptx.py deck.json output.pptx --theme ocean_tech
 ```
 
-## Custom Themes
+## Creating a Custom Theme
 
 Create a JSON file in `references/themes/`:
 
 ```json
 {
   "name": "my_theme",
+  "primary": "#3B82F6",
+  "secondary": "#0B1F3A",
+  "accent": ["#3B82F6", "#10B981", "#F59E0B"],
   "background": "#FFFFFF",
-  "title_color": "#1F2937",
-  "body_color": "#4B5563",
-  "accent_color": "#3B82F6",
-  "secondary_color": "#10B981"
+  "text": "#1F2937",
+  "light_bg": "#F3F4F6",
+  "font_title": "Microsoft YaHei",
+  "font_body": "Microsoft YaHei"
 }
 ```
 

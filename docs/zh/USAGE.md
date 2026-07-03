@@ -39,10 +39,10 @@ python scripts/build_pptx.py deck.json output.pptx --auto-route
 
 ## 主题
 
-内置主题：`default`、`ocean`、`sunset`、`forest`、`berry`、`monochrome`、`minimal`、`dark`。
+内置主题：`default`、`dark`、`warm`、`forest`、`minimal`。更多主题见 `references/themes/`。
 
 ```bash
-python scripts/build_pptx.py deck.json output.pptx --theme ocean
+python scripts/build_pptx.py deck.json output.pptx --theme ocean_tech
 ```
 
 自定义主题文件：

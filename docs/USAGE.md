@@ -39,10 +39,10 @@ python scripts/build_pptx.py deck.json output.pptx --auto-route
 
 ## Themes
 
-Built-in themes: `default`, `ocean`, `sunset`, `forest`, `berry`, `monochrome`, `minimal`, `dark`.
+Built-in themes: `default`, `dark`, `warm`, `forest`, `minimal`. Additional themes are available in `references/themes/`.
 
 ```bash
-python scripts/build_pptx.py deck.json output.pptx --theme ocean
+python scripts/build_pptx.py deck.json output.pptx --theme ocean_tech
 ```
 
 Custom theme file:

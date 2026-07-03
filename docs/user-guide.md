@@ -103,7 +103,7 @@ Advanced charts: waterfall, funnel, gantt, wordcloud
 
 ## 6. Themes
 
-Built-in themes: default, dark, warm, forest, cyber, minimal, rose, ocean
+Built-in themes: default, dark, warm, forest, minimal. Custom themes: cyber_neon, gold_corporate, ocean_tech, rose_elegant, white_gold.
 
 ```bash
 python scripts/build_pptx.py deck.json out.pptx --theme dark

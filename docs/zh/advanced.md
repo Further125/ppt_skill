@@ -253,7 +253,7 @@
 通过命令行切换配色方案：
 
 ```bash
-python scripts/build_pptx.py deck.json output.pptx --theme ocean
+python scripts/build_pptx.py deck.json output.pptx --theme ocean_tech
 ```
 
 内置主题：

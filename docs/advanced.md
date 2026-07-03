@@ -251,7 +251,7 @@ You can disable auto-fit by not passing `auto_fit=True` to `replace_placeholder_
 Switch color palettes via CLI:
 
 ```bash
-python scripts/build_pptx.py deck.json output.pptx --theme ocean
+python scripts/build_pptx.py deck.json output.pptx --theme ocean_tech
 ```
 
 Built-in themes:

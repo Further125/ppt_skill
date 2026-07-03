@@ -105,7 +105,7 @@ python scripts/build_pptx.py deck.json output_dark.pptx --theme dark
 
 ## 6. 主题
 
-内置主题: default, dark, warm, forest, cyber, minimal, rose, ocean
+内置主题：default、dark、warm、forest、minimal。自定义主题：cyber_neon、gold_corporate、ocean_tech、rose_elegant、white_gold。
 
 ```bash
 python scripts/build_pptx.py deck.json out.pptx --theme dark

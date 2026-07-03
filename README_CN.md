@@ -14,7 +14,7 @@ pip install -r requirements.txt
 python scripts/build_pptx.py examples/demo_deck.json output/my_deck.pptx
 
 # 应用主题
-python scripts/build_pptx.py examples/demo_deck.json output/my_deck.pptx --theme ocean
+python scripts/build_pptx.py examples/demo_deck.json output/my_deck.pptx --theme ocean_tech
 
 # 导出 PDF
 python scripts/export.py output/my_deck.pptx --format pdf --output my_deck.pdf
