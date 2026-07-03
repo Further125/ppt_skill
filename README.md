@@ -27,10 +27,16 @@ A powerful, template-based PowerPoint generation system. Write a JSON spec, get 
 
 - [docs/QUICK_START.md](docs/QUICK_START.md) — Quick start
 - [docs/USAGE.md](docs/USAGE.md) — Usage guide
-- [docs/layouts.md](docs/layouts.md) — Layout reference
 - [docs/user-guide.md](docs/user-guide.md) — Detailed user guide
-- [docs/architecture.md](docs/architecture.md) — Architecture design
+- [docs/layouts.md](docs/layouts.md) — Layout reference
+- [docs/THEMES.md](docs/THEMES.md) — Theme system
+- [docs/TEMPLATES.md](docs/TEMPLATES.md) — Template system
 - [docs/advanced.md](docs/advanced.md) — Advanced features
+- [docs/architecture.md](docs/architecture.md) — Architecture design
+- [docs/comparison.md](docs/comparison.md) — Comparison with other tools
+- [docs/EXAMPLES.md](docs/EXAMPLES.md) — Example gallery
+- [docs/FAQ.md](docs/FAQ.md) — Frequently asked questions
+- [docs/TESTING.md](docs/TESTING.md) — Testing guide
 - [README_CN.md](README_CN.md) — Chinese version
 
 ## Quick Start

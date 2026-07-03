@@ -10,10 +10,15 @@
 - [docs/QUICK_START.md](QUICK_START.md) — 英文快速开始
 - [docs/USAGE.md](USAGE.md) — 英文使用指南
 - [docs/layouts.md](layouts.md) — 英文布局速查
+- [docs/THEMES.md](THEMES.md) — 英文主题系统
+- [docs/TEMPLATES.md](TEMPLATES.md) — 英文模板系统
+- [docs/FAQ.md](FAQ.md) — 英文常见问题
 - [docs/zh/QUICK_START.md](zh/QUICK_START.md) — 中文快速开始
 - [docs/zh/USAGE.md](zh/USAGE.md) — 中文使用指南
 - [docs/zh/layouts.md](zh/layouts.md) — 中文布局速查
-- [docs/zh/user-guide.md](zh/user-guide.md) — 中文完整使用指南
+- [docs/zh/THEMES.md](zh/THEMES.md) — 中文主题系统
+- [docs/zh/TEMPLATES.md](zh/TEMPLATES.md) — 中文模板系统
+- [docs/zh/FAQ.md](zh/FAQ.md) — 中文常见问题
 
 ---
 

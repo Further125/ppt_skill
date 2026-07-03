@@ -30,6 +30,11 @@ python scripts/export.py output/my_deck.pptx --format pdf --output my_deck.pdf
 - [docs/zh/architecture.md](docs/zh/architecture.md) — 架构设计
 - [docs/zh/advanced.md](docs/zh/advanced.md) — 高级功能
 - [docs/zh/comparison.md](docs/zh/comparison.md) — 对比分析
+- [docs/zh/THEMES.md](docs/zh/THEMES.md) — 主题系统
+- [docs/zh/TEMPLATES.md](docs/zh/TEMPLATES.md) — 模板系统
+- [docs/zh/EXAMPLES.md](docs/zh/EXAMPLES.md) — 示例集
+- [docs/zh/FAQ.md](docs/zh/FAQ.md) — 常见问题
+- [docs/zh/TESTING.md](docs/zh/TESTING.md) — 测试指南
 
 ## 主要特性
 
