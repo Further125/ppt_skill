@@ -17,7 +17,9 @@ def post_slide(slide_spec, slide, context):
     if not watermark_text:
         return slide
 
-    prs = slide.part.package.presentation
+    prs = context.get("prs")
+    if prs is None:
+        return slide
     slide_w = prs.slide_width
     slide_h = prs.slide_height
 

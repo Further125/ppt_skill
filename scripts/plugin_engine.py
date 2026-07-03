@@ -69,7 +69,13 @@ def run_hooks(plugins, hook_name, *args, **kwargs):
             if hook_result is not None:
                 result = hook_result
                 # Update args for next plugin
-                args = (result,) + args[1:]
+                # For post_slide, keep slide_spec (args[0]) intact and only
+                # update the slide object (args[1]) so subsequent plugins still
+                # receive the original spec dict.
+                if hook_name == 'post_slide' and len(args) >= 2:
+                    args = (args[0], result) + args[2:]
+                else:
+                    args = (result,) + args[1:]
         except Exception as e:
             print(f"Warning: Plugin '{plugin['name']}' hook '{hook_name}' failed: {e}")
 

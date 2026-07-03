@@ -1207,6 +1207,7 @@ def build_deck(deck_spec, template_path, output_path):
     out_prs = Presentation()
     out_prs.slide_width = template_prs.slide_width
     out_prs.slide_height = template_prs.slide_height
+    context["prs"] = out_prs
 
     total_slides = len(deck_spec.get("slides", []))
     for idx, slide_spec in enumerate(deck_spec.get("slides", [])):

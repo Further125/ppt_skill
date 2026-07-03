@@ -18,7 +18,9 @@ def post_slide(slide_spec, slide, context):
     total = context.get("total_slides", 0)
 
     # Add a small text box at bottom-right
-    prs = slide.part.package.presentation
+    prs = context.get("prs")
+    if prs is None:
+        return slide
     slide_w = prs.slide_width
     slide_h = prs.slide_height
 

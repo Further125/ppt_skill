@@ -5,20 +5,20 @@
 > 团队卡片、动画效果，以及主题换肤、多媒体交互等扩展功能。
 
 📄 文档语言 / Documentation Languages:
-- [README.md](../README.md) — 英文完整文档 / English documentation
-- [README_CN.md](../README_CN.md) — 中文完整文档 / Chinese documentation
-- [docs/QUICK_START.md](QUICK_START.md) — 英文快速开始
-- [docs/USAGE.md](USAGE.md) — 英文使用指南
-- [docs/layouts.md](layouts.md) — 英文布局速查
-- [docs/THEMES.md](THEMES.md) — 英文主题系统
-- [docs/TEMPLATES.md](TEMPLATES.md) — 英文模板系统
-- [docs/FAQ.md](FAQ.md) — 英文常见问题
-- [docs/zh/QUICK_START.md](zh/QUICK_START.md) — 中文快速开始
-- [docs/zh/USAGE.md](zh/USAGE.md) — 中文使用指南
-- [docs/zh/layouts.md](zh/layouts.md) — 中文布局速查
-- [docs/zh/THEMES.md](zh/THEMES.md) — 中文主题系统
-- [docs/zh/TEMPLATES.md](zh/TEMPLATES.md) — 中文模板系统
-- [docs/zh/FAQ.md](zh/FAQ.md) — 中文常见问题
+- [README.md](README.md) — 英文完整文档 / English documentation
+- [README_CN.md](README_CN.md) — 中文完整文档 / Chinese documentation
+- [docs/QUICK_START.md](docs/QUICK_START.md) — 英文快速开始
+- [docs/USAGE.md](docs/USAGE.md) — 英文使用指南
+- [docs/layouts.md](docs/layouts.md) — 英文布局速查
+- [docs/THEMES.md](docs/THEMES.md) — 英文主题系统
+- [docs/TEMPLATES.md](docs/TEMPLATES.md) — 英文模板系统
+- [docs/FAQ.md](docs/FAQ.md) — 英文常见问题
+- [docs/zh/QUICK_START.md](docs/zh/QUICK_START.md) — 中文快速开始
+- [docs/zh/USAGE.md](docs/zh/USAGE.md) — 中文使用指南
+- [docs/zh/layouts.md](docs/zh/layouts.md) — 中文布局速查
+- [docs/zh/THEMES.md](docs/zh/THEMES.md) — 中文主题系统
+- [docs/zh/TEMPLATES.md](docs/zh/TEMPLATES.md) — 中文模板系统
+- [docs/zh/FAQ.md](docs/zh/FAQ.md) — 中文常见问题
 
 ---
 
